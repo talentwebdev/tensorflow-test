@@ -1,0 +1,542 @@
+{
+    "CA": [
+        {
+            "uuid": "9BD783ACE1DB11E89979E2A2350373E4",
+            "prize_name": "blackhat",
+            "copy_en": "an OREO Black Billed Trucker Baseball Hat",
+            "copy_fr": "une casquette camionneur à visière noire OREO",
+            "tier": 2,
+            "model": "hat_01/premium_hat_01.gltf"
+        },
+        {
+            "uuid": "9C2655C2E1DB11E89979E2A2350373E4",
+            "prize_name": "cookie_jar",
+            "copy_en": "an OREO cookie jar by Jonathan Adler",
+            "copy_fr": "un pot à biscuit OREO par Jonathan Adler",
+            "tier": 2,
+            "model": "cookie_jar/oreo_cookiejar.gltf"
+        },
+        {
+            "uuid": "9CBBD43AE1DB11E89979E2A2350373E4",
+            "prize_name": "delta_airplane",
+            "copy_en": "a $1,000 gift card for Delta Air Lines",
+            "copy_fr": "une carte-cadeau de 1 000 $ de Delta Air Lines",
+            "tier": 1,
+            "model": "delta/delta_airplane.gltf"
+        },
+        {
+            "uuid": "9CDC6308E1DB11E89979E2A2350373E4",
+            "prize_name": "delta_airplane",
+            "copy_en": "a $1,000 gift card for Delta Air Lines",
+            "copy_fr": "une carte-cadeau de 1 000 $ de Delta Air Lines",
+            "tier": 1,
+            "model": "delta/delta_airplane.gltf"
+        },
+        {
+            "uuid": "99B20E44E1DB11E89979E2A2350373E4",
+            "prize_name": "djbox",
+            "copy_en": "a DJ Mixer by OREO",
+            "copy_fr": "une console de mixage par OREO",
+            "tier": 2,
+            "model": "djbox/oreo_djbox.gltf"
+        },
+        {
+            "uuid": "9D37D74CE1DB11E89979E2A2350373E4",
+            "prize_name": "djbox",
+            "copy_en": "a DJ Mixer by OREO",
+            "copy_fr": "une console de mixage par OREO",
+            "tier": 2,
+            "model": "djbox/oreo_djbox.gltf"
+        },
+        {
+            "uuid": "9C396BDAE1DB11E89979E2A2350373E4",
+            "prize_name": "gradolabs_headphones",
+            "copy_en": "OREO x Grado headphones",
+            "copy_fr": "des écouteurs OREO x Grado",
+            "tier": 1,
+            "model": "gradolabs_headphones/gradolabs_headphones.gltf"
+        },
+        {
+            "uuid": "9C7A4812E1DB11E89979E2A2350373E4",
+            "prize_name": "irobot_roomba",
+            "copy_en": "a Roomba Robot Vacuum with an OREO SkinIt",
+            "copy_fr": "un robot aspirateur Roomba avec un décalque SkinIt OREO",
+            "tier": 1,
+            "model": "irobot_roomba/irobot_roomba.gltf"
+        },
+        {
+            "uuid": "9BF84268E1DB11E89979E2A2350373E4",
+            "prize_name": "jeep_wrangler",
+            "copy_en": "an OREO Jeep Wrangler",
+            "copy_fr": "une voiture Jeep Wrangler OREO",
+            "tier": 1,
+            "model": "jeep_wrangler/jeep_wrangler.gltf"
+        },
+        {
+            "uuid": "9BB0526EE1DB11E89979E2A2350373E4",
+            "prize_name": "jeep_wrangler",
+            "copy_en": "an OREO Jeep Wrangler",
+            "copy_fr": "une voiture Jeep Wrangler OREO",
+            "tier": 1,
+            "model": "jeep_wrangler/jeep_wrangler.gltf"
+        },
+        {
+            "uuid": "9C533812E1DB11E89979E2A2350373E4",
+            "prize_name": "k2_snowboard",
+            "copy_en": "an OREO K2 snowboard",
+            "copy_fr": "une planche à neige K2 OREO",
+            "tier": 1,
+            "model": "k2_snowboard/k2_snowboard.gltf"
+        },
+        {
+            "uuid": "9A9086A6E1DB11E89979E2A2350373E4",
+            "prize_name": "k2_snowboard",
+            "copy_en": "an OREO K2 snowboard",
+            "copy_fr": "une planche à neige K2 OREO",
+            "tier": 1,
+            "model": "k2_snowboard/k2_snowboard.gltf"
+        },
+        {
+            "uuid": "9CEA3DCAE1DB11E89979E2A2350373E4",
+            "prize_name": "lip_balm",
+            "copy_en": "OREO Lip Balm by Taste Beauty",
+            "copy_fr": "un baume à lèvres OREO par Taste Beauty",
+            "tier": 2,
+            "model": "lip_balm/lip_balm.gltf"
+        },
+        {
+            "uuid": "398CDB9CD79611E8BE1D9D4A360373E4",
+            "prize_name": "oreo_chocolate_bar",
+            "copy_en": "an OREO Chocolate Candy Bar",
+            "copy_fr": "une barre chocolatée OREO",
+            "tier": 3,
+            "model": "oreo_chocolate_bar/oreo_chocolate.gltf"
+        },
+        {
+            "uuid": "9A7602EAE1DB11E89979E2A2350373E4",
+            "prize_name": "oreo_chocolate_bar",
+            "copy_en": "an OREO Chocolate Candy Bar",
+            "copy_fr": "une barre chocolatée OREO",
+            "tier": 3,
+            "model": "oreo_chocolate_bar/oreo_chocolate.gltf"
+        },
+        {
+            "uuid": "9B9CAEEEE1DB11E89979E2A2350373E4",
+            "prize_name": "oreo_chocolate_bar",
+            "copy_en": "an OREO Chocolate Candy Bar",
+            "copy_fr": "une barre chocolatée OREO",
+            "tier": 3,
+            "model": "oreo_chocolate_bar/oreo_chocolate.gltf"
+        },
+        {
+            "uuid": "99BED6E2E1DB11E89979E2A2350373E4",
+            "prize_name": "oreo_chocolate_bar",
+            "copy_en": "an OREO Chocolate Candy Bar",
+            "copy_fr": "une barre chocolatée OREO",
+            "tier": 3,
+            "model": "oreo_chocolate_bar/oreo_chocolate.gltf"
+        },
+        {
+            "uuid": "9CC95920E1DB11E89979E2A2350373E4",
+            "prize_name": "oreo_portrait",
+            "copy_en": "a custom OREO portrait by Tisha Cherry",
+            "copy_fr": "un portrait personnalisé OREO par Tisha Cherry",
+            "tier": 1,
+            "model": "oreo_portrait/oreo_portrait.gltf"
+        },
+        {
+            "uuid": "9B7C291CE1DB11E89979E2A2350373E4",
+            "prize_name": "oreo_print",
+            "copy_en": "an OREO print signed by Gray Malin",
+            "copy_fr": "un tirage OREO signé par Gray Malin",
+            "tier": 1,
+            "model": "oreo_print/oreo_print.gltf"
+        },
+        {
+            "uuid": "99A41C58E1DB11E89979E2A2350373E4",
+            "prize_name": "oreo_thinbites",
+            "copy_en": "a bag of OREO Thins Bites",
+            "copy_fr": "un sac de bouchées minces OREO",
+            "tier": 3,
+            "model": "oreo_thinbites/thinbites.gltf"
+        },
+        {
+            "uuid": "9B47177CE1DB11E89979E2A2350373E4",
+            "prize_name": "pixel_3",
+            "copy_en": "Made by Google Collection featuring the Pixel 3",
+            "copy_fr": "Créé par la Google Collection, et l'appareil Pixel 3",
+            "tier": 1,
+            "model": "pixel_3/google_pixel3.gltf"
+        },
+        {
+            "uuid": "9C6016AEE1DB11E89979E2A2350373E4",
+            "prize_name": "popsocket",
+            "copy_en": "an OREO PopSocket",
+            "copy_fr": "une prise pliable PopSocket OREO",
+            "tier": 2,
+            "model": "popsocket/popsocket.gltf"
+        },
+        {
+            "uuid": "9C6D92FCE1DB11E89979E2A2350373E4",
+            "prize_name": "post_oreo_os",
+            "copy_en": "a box of Post OREO O’s Cereal",
+            "copy_fr": "une boîte de céréales OREO O’s de Post",
+            "tier": 3,
+            "model": "post_oreo_os/post_oreo_os.gltf"
+        },
+        {
+            "uuid": "9D64D76AE1DB11E89979E2A2350373E4",
+            "prize_name": "terez_leggings",
+            "copy_en": "OREO Terez Leggings",
+            "copy_fr": "un legging Terez OREO",
+            "tier": 2,
+            "model": "terez_leggings/terez_leggings.gltf"
+        },
+        {
+            "uuid": "9D241B12E1DB11E89979E2A2350373E4",
+            "prize_name": "tervis_tumbler",
+            "copy_en": "an OREO Tervis tumbler",
+            "copy_fr": "un gobelet Tervis OREO",
+            "tier": 2,
+            "model": "tervis_tumbler/tervis_tumbler.gltf"
+        },
+        {
+            "uuid": "9BE4A762E1DB11E89979E2A2350373E4",
+            "prize_name": "tervis_tumbler",
+            "copy_en": "an OREO Tervis tumbler",
+            "copy_fr": "un gobelet Tervis OREO",
+            "tier": 2,
+            "model": "tervis_tumbler/tervis_tumbler.gltf"
+        },
+        {
+            "uuid": "consolation_ca",
+            "prize_name": "wallpaper",
+            "copy_en": "",
+            "copy_fr": "",
+            "tier": 0,
+            "model": "wallpaper/wallpaper.gltf"
+        },
+        {
+            "uuid": "9C19575AE1DB11E89979E2A2350373E4",
+            "prize_name": "whitehat",
+            "copy_en": "an OREO White Billed Trucker Baseball Hat",
+            "copy_fr": "une casquette camionneur à visière blanche OREO",
+            "tier": 2,
+            "model": "hat_02/premium_hat_02.gltf"
+        },
+        {
+            "uuid": "9CAEB43AE1DB11E89979E2A2350373E4",
+            "prize_name": "xbox_controller_console",
+            "copy_en": "an OREO Xbox One X",
+            "copy_fr": "une Xbox One X OREO",
+            "tier": 1,
+            "model": "xbox_controller_console/xbox.gltf"
+        },
+        {
+            "uuid": "9B893B84E1DB11E89979E2A2350373E4",
+            "prize_name": "xbox_controller_console",
+            "copy_en": "an OREO Xbox One X",
+            "copy_fr": "une Xbox One X OREO",
+            "tier": 1,
+            "model": "xbox_controller_console/xbox.gltf"
+        },
+        {
+            "uuid": "9B61C126E1DB11E89979E2A2350373E4",
+            "prize_name": "xbox_controller_console",
+            "copy_en": "an OREO Xbox One X",
+            "copy_fr": "une Xbox One X OREO",
+            "tier": 1,
+            "model": "xbox_controller_console/xbox.gltf"
+        },
+        {
+            "uuid": "9B6F2226E1DB11E89979E2A2350373E4",
+            "prize_name": "xbox_controller_console",
+            "copy_en": "an OREO Xbox One X",
+            "copy_fr": "une Xbox One X OREO",
+            "tier": 1,
+            "model": "xbox_controller_console/xbox.gltf"
+        }
+    ],
+    "US": [
+        {
+            "uuid": "2D61A5FCD79E11E887F88465360373E4",
+            "prize_name": "blackhat",
+            "copy_en": "an OREO Black Billed Trucker Baseball Hat",
+            "copy_fr": "",
+            "tier": 2,
+            "model": "hat_01/premium_hat_01.gltf"
+        },
+        {
+            "uuid": "2DA3740AD79E11E887F88465360373E4",
+            "prize_name": "breyers_icecream",
+            "copy_en": "a 48oz tub of Breyers OREO",
+            "copy_fr": "",
+            "tier": 3,
+            "model": "breyers_icecream/breyers.gltf"
+        },
+        {
+            "uuid": "2C54C202D79E11E887F88465360373E4",
+            "prize_name": "cookie_jar",
+            "copy_en": "an OREO cookie jar by Jonathan Adler",
+            "copy_fr": "",
+            "tier": 2,
+            "model": "cookie_jar/oreo_cookiejar.gltf"
+        },
+        {
+            "uuid": "2B3C40F2D79E11E887F88465360373E4",
+            "prize_name": "delta_airplane",
+            "copy_en": "a $1,000 gift card for Delta Air Lines",
+            "copy_fr": "",
+            "tier": 1,
+            "model": "delta/delta_airplane.gltf"
+        },
+        {
+            "uuid": "2D3A04DED79E11E887F88465360373E4",
+            "prize_name": "djbox",
+            "copy_en": "a DJ Mixer by OREO",
+            "copy_fr": "",
+            "tier": 2,
+            "model": "djbox/oreo_djbox.gltf"
+        },
+        {
+            "uuid": "2C82A2C6D79E11E887F88465360373E4",
+            "prize_name": "freal_milkshake",
+            "copy_en": "a f'real OREO Cookies & Cream Milkshake",
+            "copy_fr": "",
+            "tier": 3,
+            "model": "freal_milkshake/freal_milkshake.gltf"
+        },
+        {
+            "uuid": "2D54409CD79E11E887F88465360373E4",
+            "prize_name": "gradolabs_headphones",
+            "copy_en": "OREO x Grado headphones",
+            "copy_fr": "",
+            "tier": 1,
+            "model": "gradolabs_headphones/gradolabs_headphones.gltf"
+        },
+        {
+            "uuid": "2C3A1D1CD79E11E887F88465360373E4",
+            "prize_name": "internationaldelight_creamer",
+            "copy_en": "International Delight® OREO Flavored Creamer",
+            "copy_fr": "",
+            "tier": 3,
+            "model": "internationaldelight_creamer/internationaldelight_creamer.gltf"
+        },
+        {
+            "uuid": "2AD13410D79E11E887F88465360373E4",
+            "prize_name": "irobot_roomba",
+            "copy_en": "a Roomba Robot Vacuum with an OREO SkinIt",
+            "copy_fr": "",
+            "tier": 1,
+            "model": "irobot_roomba/irobot_roomba.gltf"
+        },
+        {
+            "uuid": "2D89792ED79E11E887F88465360373E4",
+            "prize_name": "jeep_wrangler",
+            "copy_en": "an OREO Jeep Wrangler",
+            "copy_fr": "",
+            "tier": 1,
+            "model": "jeep_wrangler/jeep_wrangler.gltf"
+        },
+        {
+            "uuid": "2D7C579ED79E11E887F88465360373E4",
+            "prize_name": "jeep_wrangler",
+            "copy_en": "an OREO Jeep Wrangler",
+            "copy_fr": "",
+            "tier": 1,
+            "model": "jeep_wrangler/jeep_wrangler.gltf"
+        },
+        {
+            "uuid": "2C470928D79E11E887F88465360373E4",
+            "prize_name": "k2_snowboard",
+            "copy_en": "an OREO K2 snowboard",
+            "copy_fr": "",
+            "tier": 1,
+            "model": "k2_snowboard/k2_snowboard.gltf"
+        },
+        {
+            "uuid": "2D0576CED79E11E887F88465360373E4",
+            "prize_name": "klondike_goodhumor",
+            "copy_en": "an OREO Klondike bar or Good Humor bar",
+            "copy_fr": "",
+            "tier": 3,
+            "model": "klondike/klondike_goodhumor.gltf"
+        },
+        {
+            "uuid": "2D968EC0D79E11E887F88465360373E4",
+            "prize_name": "lip_balm",
+            "copy_en": "OREO Lip Balm by Taste Beauty",
+            "copy_fr": "",
+            "tier": 2,
+            "model": "lip_balm/lip_balm.gltf"
+        },
+        {
+            "uuid": "2DB08582D79E11E887F88465360373E4",
+            "prize_name": "oreo_chocolate_bar",
+            "copy_en": "an OREO Chocolate Candy Bar",
+            "copy_fr": "",
+            "tier": 3,
+            "model": "oreo_chocolate_bar/oreo_chocolate.gltf"
+        },
+        {
+            "uuid": "2B2EF758D79E11E887F88465360373E4",
+            "prize_name": "oreo_funsize_chocolate",
+            "copy_en": "a bag of OREO Fun Size Chocolate Candy Bars",
+            "copy_fr": "",
+            "tier": 3,
+            "model": "oreo_funsize_chocolate/funsize_chocolate.gltf"
+        },
+        {
+            "uuid": "2AED0226D79E11E887F88465360373E4",
+            "prize_name": "oreo_portrait",
+            "copy_en": "a custom OREO portrait by Tisha Cherry",
+            "copy_fr": "",
+            "tier": 1,
+            "model": "oreo_portrait/oreo_portrait.gltf"
+        },
+        {
+            "uuid": "2D474C20D79E11E887F88465360373E4",
+            "prize_name": "oreo_print",
+            "copy_en": "an OREO print signed by Gray Malin",
+            "copy_fr": "",
+            "tier": 1,
+            "model": "oreo_print/oreo_print.gltf"
+        },
+        {
+            "uuid": "2B22235CD79E11E887F88465360373E4",
+            "prize_name": "oreo_state_fair_cookies",
+            "copy_en": "one (1) OREO® State Fair Cookie 10oz box",
+            "copy_fr": "",
+            "tier": 3,
+            "model": "oreo_state_fair_cookies/oreo_state_fair_cookies.gltf"
+        },
+        {
+            "uuid": "2C9D135ED79E11E887F88465360373E4",
+            "prize_name": "oreo_thinbites",
+            "copy_en": "a bag of OREO Thins Bites",
+            "copy_fr": "",
+            "tier": 3,
+            "model": "oreo_thinbites/thinbites.gltf"
+        },
+        {
+            "uuid": "2D127EBED79E11E887F88465360373E4",
+            "prize_name": "pixel_3",
+            "copy_en": "Made by Google Collection featuring the Pixel 3",
+            "copy_fr": "",
+            "tier": 1,
+            "model": "pixel_3/google_pixel3.gltf"
+        },
+        {
+            "uuid": "2B082074D79E11E887F88465360373E4",
+            "prize_name": "popsocket",
+            "copy_en": "an OREO PopSocket",
+            "copy_fr": "",
+            "tier": 2,
+            "model": "popsocket/popsocket.gltf"
+        },
+        {
+            "uuid": "2AFAE42CD79E11E887F88465360373E4",
+            "prize_name": "post_oreo_os",
+            "copy_en": "a box of Post OREO O’s Cereal",
+            "copy_fr": "",
+            "tier": 3,
+            "model": "post_oreo_os/post_oreo_os.gltf"
+        },
+        {
+            "uuid": "2D2D07C0D79E11E887F88465360373E4",
+            "prize_name": "post_oreo_os",
+            "copy_en": "a box of Post OREO O’s Cereal",
+            "copy_fr": "",
+            "tier": 3,
+            "model": "post_oreo_os/post_oreo_os.gltf"
+        },
+        {
+            "uuid": "2D20382ED79E11E887F88465360373E4",
+            "prize_name": "sonic_oreo_blast",
+            "copy_en": "a $10 Sonic Drive-In E-Gift Card",
+            "copy_fr": "",
+            "tier": 2,
+            "model": "sonic_oreo_blast/sonic_oreo_blast.gltf"
+        },
+        {
+            "uuid": "2B562058D79E11E887F88465360373E4",
+            "prize_name": "terez_leggings",
+            "copy_en": "OREO Terez Leggings",
+            "copy_fr": "",
+            "tier": 2,
+            "model": "terez_leggings/terez_leggings.gltf"
+        },
+        {
+            "uuid": "2ADFC3E0D79E11E887F88465360373E4",
+            "prize_name": "tervis_tumbler",
+            "copy_en": "an OREO Tervis tumbler",
+            "copy_fr": "",
+            "tier": 2,
+            "model": "tervis_tumbler/tervis_tumbler.gltf"
+        },
+        {
+            "uuid": "2C61C164D79E11E887F88465360373E4",
+            "prize_name": "tervis_tumbler",
+            "copy_en": "an OREO Tervis tumbler",
+            "copy_fr": "",
+            "tier": 2,
+            "model": "tervis_tumbler/tervis_tumbler.gltf"
+        },
+        {
+            "uuid": "consolation_us",
+            "prize_name": "wallpaper",
+            "copy_en": "",
+            "copy_fr": "",
+            "tier": 0,
+            "model": "wallpaper/wallpaper.gltf"
+        },
+        {
+            "uuid": "2C75C876D79E11E887F88465360373E4",
+            "prize_name": "whitehat",
+            "copy_en": "an OREO White Billed Trucker Baseball Hat",
+            "copy_fr": "",
+            "tier": 2,
+            "model": "hat_02/premium_hat_02.gltf"
+        },
+        {
+            "uuid": "842EAC52095511E9AF272EFA360373E4",
+            "prize_name": "wiz_khalifa_music_box",
+            "copy_en": "an OREO Music Box feat. Wiz Khalifa",
+            "copy_fr": "",
+            "tier": 1,
+            "model": "wiz_khalifa_music_box/wizkhalifa_musicbox.gltf"
+        },
+        {
+            "uuid": "2B697E0AD79E11E887F88465360373E4",
+            "prize_name": "xbox_controller_console",
+            "copy_en": "an OREO Xbox One X or a 7-day Game Pass",
+            "copy_fr": "",
+            "tier": 1,
+            "model": "xbox_controller_console/xbox.gltf"
+        },
+        {
+            "uuid": "2B768F64D79E11E887F88465360373E4",
+            "prize_name": "xbox_controller_console",
+            "copy_en": "an OREO Xbox One X or a 7-day Game Pass",
+            "copy_fr": "",
+            "tier": 1,
+            "model": "xbox_controller_console/xbox.gltf"
+        },
+        {
+            "uuid": "2C90225CD79E11E887F88465360373E4",
+            "prize_name": "xbox_controller_console",
+            "copy_en": "an OREO Xbox One X or a 7-day Game Pass",
+            "copy_fr": "",
+            "tier": 1,
+            "model": "xbox_controller_console/xbox.gltf"
+        },
+        {
+            "uuid": "2D6F8398D79E11E887F88465360373E4",
+            "prize_name": "xbox_controller_console",
+            "copy_en": "an OREO Xbox One X or a 7-day Game Pass",
+            "copy_fr": "",
+            "tier": 1,
+            "model": "xbox_controller_console/xbox.gltf"
+        }
+    ]
+}

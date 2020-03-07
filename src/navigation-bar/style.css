@@ -1,0 +1,332 @@
+
+
+.mymenu li .mydropdown {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 20px;
+    min-width: 390px;
+    border: 2px solid #d3e8f6;
+    margin-top: -2px;
+    padding: 40px;
+    z-index: 3;
+}
+.mymenu li .navlink a, .mymenu li .navlink span {
+    font-family: PlutoCondBold;
+    font-size: .875rem;
+    font-weight: normal !important;
+    line-height: 1.14;
+    letter-spacing: .04375rem;
+    padding: 10px 15px;
+    display: block;
+    text-decoration: none;
+    color: #2e3033;
+    cursor: pointer;
+}
+.mybrand {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+}
+
+.mybrand, .mybrand img {
+    display: block;
+}
+
+a {
+    transition: all .4s;
+}
+
+.mymenu li {
+    display: block;
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    width: 180px;
+}
+
+.mymenu li.open .navlink {
+    border-radius: 25px 25px 0 0;
+    padding-bottom: 10px;
+    border-bottom: 0;
+    height: 55px;
+    position: relative;
+    z-index: 5;
+}
+
+.mymenu li .navlink {
+    background-color: #fff;
+    border: 2px solid #d3e8f6;
+    border-radius: 25px;
+    height: 40px;
+}
+
+.mymenu li.open .mydropdown {
+    display: block;
+}
+
+.mymenu li:first-child .mydropdown {
+    border-radius: 0 20px 20px;
+}
+
+.mymenu li .mydropdown {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 20px;
+    min-width: 390px;
+    border: 2px solid #d3e8f6;
+    margin-top: -2px;
+    padding: 40px;
+    z-index: 3;
+}
+
+.innerDropdown {
+    border-top: 2px solid #d3e8f6;
+    padding: 20px 0;
+}
+
+.mymenu {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.navlist {
+    margin: 0;
+    padding: 0;
+}
+.mymenu, .navlist, ul.socialnet, ul.vlist {
+    list-style: none;
+}
+.mymenu:after, .mymenu:before, .navlist:after, .navlist:before {
+    content: '';
+    display: table;
+    clear: both;
+}
+.mymenu:after, .mymenu:before, .navlist:after, .navlist:before {
+    content: '';
+    display: table;
+    clear: both;
+}
+.navlist li a {
+    font-family: PlutoCondBold;
+    font-size: 14px;
+    font-weight: normal !important;
+    line-height: 18px;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #2e3033;
+}
+.mymenu li.open .navlink a, .mymenu li.open .navlink span {
+    color: #0858c1;
+}
+.mymenu li.open .navlink:after {
+    right: -21px;
+}
+.navlist>li:first-child {
+    border-color: #0858c1
+}
+@media (max-width: 2000px){
+    .mymenu li.open .navlink {
+        border-radius: 0;
+        padding-bottom: 0;
+        border-bottom: 0;
+        height: auto;
+    }
+    .cartbtn {
+        position: absolute;
+        z-index: 3;
+        top: 5px;
+        right: 15px;
+        font-size: 20px;
+        width: 28px;
+        text-align: center;
+        color: #231f20;
+    }
+    .navlist>li a {
+        font-family: 'PlutoCondBold';
+        display: block;
+        padding: 15px 0;
+        color: #231f20;
+    }
+    .preheader {
+        z-index: 1000;
+        position:relative;
+        height: auto;
+        background: #fff;
+        border-radius: 0 0 20px 20px;
+        border: 2px solid #d3e8f6;
+        border-top: 0;
+    }
+    .mobilebtn {
+        height: 40px;
+        width: 45px;
+        margin-left: 10px;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: #fff;
+        position: absolute;
+        z-index: 3;
+        top: 3px;
+        left: 0;
+        cursor: pointer;
+    }
+
+    .mynavbar {
+        height: auto;
+        max-width: none;
+        padding: 0;
+        min-height: 48px;
+    }
+
+    .mybrand {
+        width: 51px;
+        height: 62px;
+        margin: 0 auto;
+        right: 0;
+        top: 10px;
+    }
+
+    .mobilebtn span {
+        height: 4px;
+        width: 35px;
+        background: #231F20;
+        margin: 2px auto;
+        display: block;
+        z-index: 1;
+    }
+
+    .mobilebtn span:nth-child(2n+1) {
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+    
+    .mobilebtn span:nth-child(2n) {
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+
+    .mobilebtn.open span:first-child {
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+    .mobilebtn.open span {
+        position: absolute;
+        height: 2px;
+        width: 25px;
+        border-radius: 25px;
+        left: 9px;
+        top: 15px;
+        -webkit-transition: .25s ease-in-out;
+        -moz-transition: .25s ease-in-out;
+        -o-transition: .25s ease-in-out;
+        transition: .25s ease-in-out;
+    }
+
+    .mobilebtn.open span:nth-child(2), .mobilebtn.open span:nth-child(3) {
+        display: none;
+    }
+
+    .mobilebtn.open span {
+        position: absolute;
+        height: 2px;
+        width: 25px;
+        border-radius: 25px;
+        left: 9px;
+        top: 15px;
+        -webkit-transition: .25s ease-in-out;
+        -moz-transition: .25s ease-in-out;
+        -o-transition: .25s ease-in-out;
+        transition: .25s ease-in-out;
+    }
+
+    .mobilebtn.open span:last-child {
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+
+    .mybrand img {
+        width: 51px;
+        height: 62px;
+    }
+
+    .navbox {
+        height: auto;
+        margin: 0;
+        padding: 98px 0px 0;
+        position: relative;
+        display: none;
+        border-radius: 0 0 30px 30px;
+        overflow: hidden;
+    }
+
+    .mymenu li {
+        margin: 0;
+        width: 100% !important;
+        border-top: 2px solid #d3e8f6;
+    }
+
+    .mymenu li.open .navlink {
+        border-radius: 0;
+        padding-bottom: 0;
+        border-bottom: 0;
+        height: auto;
+    }
+
+    .mymenu li .navlink {
+        border-radius: 0;
+        height: 50px;
+        border: 0;
+    }
+
+    .mymenu li .mydropdown {
+        position: relative;
+        border-radius: 0;
+        min-width: 100%;
+        border: 0;
+        margin: 0;
+        padding: 0 15px;
+    }
+
+    .innerDropdown {
+        border: 0;
+        padding: 0;
+    }
+
+    .mymenu {
+        display: block;
+        width: 100%;
+        overflow: hidden;
+    }
+    .mynavbar .mycol {
+        overflow: auto;
+        max-height: 400px;
+    }
+    .mycol {
+        width: 100%;
+    }
+    .mymenu li .navlink {
+        border-radius: 0 !important;
+        height: 50px !important;
+        border: 0 !important;
+    }
+    .mymenu li .navlink a, .mymenu li .navlink span {
+        line-height: 20px;
+        padding: 16px 15px;
+    }
+    .mymenu li .mydropdown {
+        position: relative;
+        border-radius: 0;
+        min-width: 100%;
+        border: 0;
+        margin: 0;
+        padding: 0 15px;
+    }
+}

@@ -1,0 +1,175 @@
+[
+    {
+        "name": "facebook_share_button_prelaunch_win_lose_page",
+        "category": "Social",
+        "action": "Share",
+        "label": "facebook.com"
+    },
+    {
+        "name": "twitter_button_prelaunch_win_lose_page",
+        "category": "Social",
+        "action": "Share",
+        "label": "twitter.com"
+    },
+    {
+        "name": "oreo_button_prelaunch_win_lose_page",
+        "category": "Affiliate",
+        "action": "Exit",
+        "label": "oreo.com"
+    },
+    {
+        "name": "play_button_landing",
+        "category": "Play",
+        "action": "Click",
+        "label": "landing_play"
+    },
+    {
+        "name": "video_page_next_button",
+        "category": "Video",
+        "action": "Click",
+        "label": "video_next"
+    },
+    {
+        "name": "video_page_back_button",
+        "category": "Video",
+        "action": "Click",
+        "label": "video_back"
+    },
+    {
+        "name": "video_page_continue",
+        "category": "Video",
+        "action": "Click",
+        "label": "video_continue"
+    },
+    {
+        "name": "reg_facebook_button",
+        "category": "Social",
+        "action": "Click",
+        "label": "reg_facebook_connect"
+    },
+    {
+        "name": "reg_google_button",
+        "category": "Social",
+        "action": "Click",
+        "label": "reg_google_connect"
+    },
+    {
+        "name": "play_button_reg",
+        "category": "Play",
+        "action": "Click",
+        "label": "reg_play"
+    },
+    {
+        "name": "need_help",
+        "category": "Help",
+        "action": "Click",
+        "label": "help"
+    },
+    {
+        "name": "play_without_camera_first_time",
+        "category": "Play",
+        "action": "Click",
+        "label": "no_camera_1"
+    },
+    {
+        "name": "continue",
+        "category": "Play",
+        "action": "Click",
+        "label": "continue"
+    },
+    {
+        "name": "play_without_camera_second_time",
+        "category": "Play",
+        "action": "Click",
+        "label": "no_camera_2"
+    },
+    {
+        "name": "if_in_unsupported_social_browser_link",
+        "category": "Affiliate",
+        "action": "Exit",
+        "label": "social_browser_redirect"
+    },
+    {
+        "name": "successful_scans",
+        "category": "Play",
+        "action": "Allow Camera Access & approved by NK technology",
+        "label": "successful_scan"
+    },
+    {
+        "name": "no_orientation",
+        "category": "Device Detection",
+        "action": "NK array",
+        "label": "no_orientation"
+    },
+    {
+        "name": "no_webgl",
+        "category": "Device Detection",
+        "action": "NK array",
+        "label": "no_webgl "
+    },
+    {
+        "name": "no_camera",
+        "category": "Camera Detection",
+        "action": "NK array",
+        "label": "no_camera "
+    },
+    {
+        "name": "allowed_camera",
+        "category": "Camera Detection",
+        "action": "NK array",
+        "label": "allowed_camera "
+    },
+    {
+        "name": "experience_type",
+        "category": "Camera Detection",
+        "action": "NK array",
+        "label": [
+            "amoe",
+            "3dof",
+            "webxr",
+            "arquicklook"
+        ]
+    },
+    {
+        "name": "frame_rate_avg",
+        "category": "Camera Detection",
+        "action": "NK array",
+        "label": "frame_rate_avg"
+    },
+    {
+        "name": "consolation_prize_download_mobile_us",
+        "category": "Consolation",
+        "action": "Click",
+        "label": "mobile_us"
+    },
+    {
+        "name": "consolation_prize_download_mobile_canada_english",
+        "category": "Consolation",
+        "action": "Click",
+        "label": "mobile_ca_en"
+    },
+    {
+        "name": "consolation_prize_download_mobile_canada_french",
+        "category": "Consolation",
+        "action": "Click",
+        "label": "mobile_ca_fr"
+    },
+    {
+        "name": "consolation_prize_download_desktop_us",
+        "category": "Consolation",
+        "action": "Click",
+        "label": "desktop_us"
+    },
+    {
+        "name": "consolation_prize_download_desktop_canada_english",
+        "category": "Consolation",
+        "action": "Click",
+        "label": "desktop_ca_en"
+    },
+    {
+        "name": "consolation_prize_download_desktop_canada_french",
+        "category": "Consolation",
+        "action": "Click",
+        "label": "desktop_ca_fr"
+    }
+]

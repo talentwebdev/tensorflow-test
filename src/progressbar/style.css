@@ -1,0 +1,22 @@
+.progressbar-container{
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.back-image{
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+.progress-number{
+    position: absolute;
+    top: 50%;
+    font-weight: bold;
+    color: #FFF;
+    text-align: center;
+    width: 100%;
+}
