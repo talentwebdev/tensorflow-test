@@ -126,12 +126,39 @@ a {
 .navlist>li:first-child {
     border-color: #0858c1
 }
+.mymenu li .navlink a, .mymenu li .navlink span {
+    font-family: PlutoCondBold;
+    font-size: .875rem;
+    font-weight: normal !important;
+    line-height: 1.14;
+    letter-spacing: .04375rem;
+    padding: 10px 15px;
+    display: block;
+    text-decoration: none;
+    color: #2e3033;
+    cursor: pointer;
+}
 @media (max-width: 2000px){
     .mymenu li.open .navlink {
         border-radius: 0;
         padding-bottom: 0;
         border-bottom: 0;
         height: auto;
+    }
+    .navlist>li a {
+        font-family: 'PlutoCondBold';
+        display: block;
+        padding: 15px 0;
+        color: #231f20;
+    }
+    .navlink .sp{
+        text-align: left !important;
+    }
+    .navlink > a{
+        text-align: left !important;
+    }
+    li a{
+        text-align: left !important;
     }
     .cartbtn {
         position: absolute;

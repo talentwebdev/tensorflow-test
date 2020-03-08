@@ -1,0 +1,1081 @@
+#SFAmbanner1 {
+    display: none;
+}
+
+.postheader {
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.banner-bg_trolls_home {
+    background-image: url(../images/banners/oreo-trolls-home-xl.jpg);
+}
+
+.banner-bg_trolls_home_two {
+    background-image: url(../images/banners/oreo-trolls-home-2-xl.jpg);
+}
+
+.banner-bg_trolls_home_three {
+    background-image: url(../images/banners/oreo-trolls-home-3-xl.jpg);
+}
+
+.oreo-trolls-left-content.trolls-info {
+    margin-top: 22px;
+    width: 356px;
+    margin-left: -13px;
+}
+
+.banner-bg_trolls_home .oreo-trolls-left-content.trolls-info {
+    margin-top: 70px;
+}
+
+.banner-bg_trolls_home .oreo-trolls-left-content.trolls-info img {
+    width: 367px;
+    margin-top: 4px;
+    margin-left: -15px;
+}
+
+.oreo-trolls-right-content.trolls-info {
+    width: 300px;
+    float: right;
+}
+
+.trolls-info h2 {
+    color: #ffffff;
+    font-size: 30.6px;
+    line-height: 34px;
+    font-family: 'PlutoCondBlack';
+    font-weight: 900;
+}
+
+.postheader.banner-bg_trolls_home p {
+    margin: 9px 0 17px;
+    font-size: 19px;
+}
+
+.postheader.banner-bg_trolls_home .play-btn {
+    margin-top: 11px;
+}
+
+.trolls-info h1 {
+    color: #f00093;
+    font-size: 66px;
+    line-height: 63.45px;
+    letter-spacing: -2px;
+    font-family: 'PlutoCondBlack';
+    font-weight: 900;
+    text-transform: uppercase;
+    position: relative;
+    margin-top: 11px;
+    margin-bottom: -3px;
+}
+
+.trolls-info h1 span {
+    display: block;
+    font-size: 28.6px;
+    line-height: 1;
+    letter-spacing: 0;
+    margin-top: 4px;
+}
+
+.trolls-info p {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1;
+    font-family: 'PlutoCond';
+}
+
+.trolls-info h1 .quate.first {
+    position: absolute;
+    left: -14px;
+    font-size: 39px;
+    top: -4px;
+}
+
+.play-btn {
+    width: 300px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: PlutoCondBold;
+    font-weight: normal !important;
+}
+
+.blank-btn {
+    width: 269px;
+    background: transparent;
+    color: #fff;
+    padding: 8px 0 !important;
+}
+
+.oreo-trolls-right-content.trolls-info {
+    width: 300px;
+    float: right;
+    margin-right: -48px;
+    margin-top: 73px;
+}
+
+.trolls-stream h2 {
+    font-size: 33px;
+}
+
+.trolls-stream .blank-btn {
+    margin-top: 12px;
+}
+
+.trolls-preorder {
+    margin-top: 40px;
+}
+
+.trolls-preorder .blank-btn {
+    margin-top: 24px;
+}
+
+.pos-ab {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+}
+
+.pos-ab p {
+    color: rgba(255, 255, 255, .2);
+    font-size: 8px !important;
+    line-height: 8px;
+    font-family: 'PlutoCond';
+    font-weight: 300;
+    margin: 0 0 0 -12px;
+}
+
+.pg-logo {
+    position: absolute;
+    right: 35px;
+    bottom: 20px;
+    z-index: 99;
+}
+
+
+/* ----------Home 2----------- */
+
+.banner-bg_trolls_home_two .trolls-stream span,
+.banner-bg_trolls_home_two .trolls-stream p,
+.banner-bg_trolls_home_two .trolls-preorder p,
+.banner-bg_trolls_home_three .trolls-stream span,
+.banner-bg_trolls_home_three .trolls-stream p,
+.banner-bg_trolls_home_three .trolls-preorder p {
+    display: block;
+    color: #fff;
+    font-size: 24px;
+    line-height: 34px;
+    font-family: 'PlutoCond';
+    font-weight: 700;
+}
+
+.banner-bg_trolls_home_two .trolls-preorder p,
+.banner-bg_trolls_home_three .trolls-preorder p {
+    line-height: 24.99px;
+}
+
+.banner-bg_trolls_home_two .plus {
+    margin-left: -9px;
+}
+
+.banner-bg_trolls_home_two .experience,
+.banner-bg_trolls_home_three .experience {
+    margin-left: -8px;
+}
+
+.banner-bg_trolls_home_two .oreo-trolls-left-content.trolls-info img {
+    margin-top: 30px;
+    margin-left: -15px;
+}
+
+.banner-bg_trolls_home_two .oreo-trolls-right-content.trolls-info {
+    margin-top: 38px;
+}
+
+.banner-bg_trolls_home_two .trolls-stream span {
+    line-height: 1;
+    margin-top: -4px;
+    margin-bottom: 10px;
+}
+
+.banner-bg_trolls_home_two .trolls-stream p,
+.banner-bg_trolls_home_three .trolls-stream p {
+    margin: -4px 0 0;
+    line-height: 1.1;
+}
+
+.banner-bg_trolls_home_two .trolls-preorder {
+    margin-top: 0;
+}
+
+.back-btn {
+    background: transparent;
+    color: #fff;
+    width: 115px;
+    padding: 8px 0 !important;
+    text-transform: uppercase;
+}
+
+.audio {
+    height: 71px;
+}
+
+.banner-bg_trolls_home_two .pos-ab p {
+    text-align: center;
+}
+
+.trolls-world-tour {
+    background-image: url(../images/banners/trolls-world-tour.png);
+    height: 119px;
+    width: 166px;
+}
+
+
+/* ---------------Home 3--------------- */
+
+.banner-bg_trolls_home_three .oreo-trolls-right-content.trolls-info {
+    width: 300px;
+    float: right;
+    margin-right: -15px;
+    margin-top: 110px;
+}
+
+.banner-bg_trolls_home_three .oreo-trolls-right-content.trolls-info .blank-btn {
+    margin-top: 28px;
+}
+
+.banner-bg_trolls_home_three .oreo-trolls-left-content.trolls-info {
+    margin-top: 61px;
+}
+
+.banner-bg_trolls_home_three .trolls-stream span {
+    font-size: 32px;
+    line-height: 1;
+}
+
+.banner-bg_trolls_home_three .trolls-world {
+    margin-top: 43px;
+}
+
+.banner-bg_trolls_home_three .experience {
+    margin-top: 13px;
+    margin-bottom: 6px;
+    max-width: 100%;
+}
+
+.banner-bg_trolls_home_three .trolls-stream p {
+    font-size: 33px;
+}
+
+.banner-bg_trolls_home_three .trolls-preorder {
+    margin-top: 0;
+}
+
+.banner-bg_trolls_home_three .oreo-trolls-left-content.trolls-info {
+    width: 400px;
+}
+
+.banner-bg_trolls_home_three .trolls-preorder p {
+    font-size: 30px;
+    line-height: 34px;
+    margin: -7px 0 0;
+}
+
+.banner-bg_trolls_home_three .pos-ab {
+    bottom: 20px;
+}
+
+
+/*BY RASHID*/
+
+.oreo-trolls-left-content.trolls-info {
+    margin-top: 22px;
+    width: 440px;
+    margin-left: -13px;
+}
+
+.oreo-trolls-left-content.trolls-info>img {
+    display: block;
+    width: 100%;
+}
+
+.audio {
+    height: 70px;
+    width: 100%;
+    margin: 0 0 35px;
+    position: relative;
+}
+
+.audio>span {
+    left: 0;
+    display: block;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    float: left;
+    background-repeat: no-repeat;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 9;
+}
+
+.audio>img {
+    margin: 0 !important;
+    width: calc(100% - 45px);
+    display: block;
+    float: right;
+}
+
+
+/*END BY RASHID*/
+
+@media (max-width:1440px) {
+    .banner-bg_trolls_home {
+        background-image: url(../images/banners/oreo-trolls-home-lg.jpg);
+    }
+    .banner-bg_trolls_home_two {
+        background-image: url(../images/banners/oreo-trolls-home-2-lg.jpg);
+        background-position: center center;
+    }
+    .banner-bg_trolls_home_three {
+        background-image: url(../images/banners/oreo-trolls-home-3-lg.jpg);
+        background-position: center center;
+    }
+}
+
+@media (min-width:1200px) and (max-width:1239px) {
+    .oreo-trolls-right-content.trolls-info {
+        margin-right: -15px;
+    }
+}
+
+@media (min-width:993px) and (max-width:1024px) {
+    .oreo-trolls-right-content.trolls-info {
+        margin-right: -15px;
+    }
+}
+
+@media (max-width:1199.99px) {
+    .banner-bg_trolls_home {
+        background-position: center center;
+    }
+}
+
+@media (min-width:767px) and (max-width:992px) {
+    img#dk_equalizer {
+        width: 91%;
+        position: absolute;
+        left: 40px;
+        top: 20px;
+    }
+    .audio {
+        margin: 0;
+    }
+}
+
+@media (max-width:992px) {
+    .banner-bg_trolls_home {
+        background-image: url(../images/banners/oreo-trolls-home-md.jpg);
+    }
+    .banner-bg_trolls_home_two {
+        background-image: url(../images/banners/oreo-trolls-home-2-md.jpg);
+        background-position: center center;
+    }
+    .banner-bg_trolls_home_three {
+        background-image: url(../images/banners/oreo-trolls-home-3-md.jpg);
+        background-position: center center;
+    }
+    .banner-bg_trolls_home .oreo-trolls-left-content.trolls-info img {
+        width: 281px;
+    }
+    .trolls-world-tour {
+        height: 88px;
+        width: 124px;
+        background-size: cover;
+    }
+    .trolls-world {
+        width: 215px;
+        margin-top: 24px;
+    }
+    .banner-bg_trolls_home .trolls-world {
+        width: 215px;
+        margin-top: 0;
+    }
+    .banner-bg_trolls_home_three .experience {
+        margin-top: 8px;
+        margin-bottom: 2px;
+        max-width: 305px;
+    }
+    .banner-bg_trolls_home_three .oreo-trolls-left-content.trolls-info {
+        width: 310px;
+    }
+    .postheader.banner-bg_trolls_home_three .trolls-info p {
+        margin: 0;
+    }
+    .banner-bg_trolls_home_three .trolls-preorder {
+        margin-top: 2px;
+    }
+    .banner-bg_trolls_home_three .trolls-stream p {
+        font-size: 25px;
+        line-height: 26px;
+    }
+    .banner-bg_trolls_home_three .trolls-preorder p {
+        font-size: 25px;
+        line-height: 26px;
+    }
+    .postheader.banner-bg_trolls_home,
+    .postheader.banner-bg_trolls_home_two,
+    .postheader.banner-bg_trolls_home_three {
+        height: 500px;
+    }
+    .banner-bg_trolls_home_three .trolls-stream span {
+        font-size: 25px;
+        line-height: 26px;
+    }
+    .banner-bg_trolls_home_three .oreo-trolls-left-content.trolls-info {
+        margin-top: 43px;
+    }
+    .trolls-preorder img {
+        width: 204px;
+    }
+    .banner-bg_trolls_home_three .oreo-trolls-right-content.trolls-info {
+        margin-top: 65px;
+    }
+    .banner-bg_trolls_home_three .oreo-trolls-right-content.trolls-info {
+        width: 215px;
+    }
+    .banner-bg_trolls_home_three .oreo-trolls-right-content.trolls-info .blank-btn {
+        margin-top: 22px;
+    }
+    .blank-btn {
+        width: 206px;
+        height: 30.66px;
+        line-height: 30px;
+        padding: 0 !important;
+    }
+    .trolls-stream h2 {
+        font-size: 25px;
+        line-height: 26px;
+    }
+    .oreo-trolls-right-content.trolls-info {
+        margin-top: 48px;
+        width: 208px;
+        margin-right: -15px;
+    }
+    .trolls-stream .blank-btn {
+        margin-top: 7px;
+    }
+    .trolls-preorder {
+        margin-top: 32px;
+    }
+    .trolls-preorder .blank-btn {
+        margin-top: 20px;
+    }
+    .oreo-trolls-left-content.trolls-info {
+        margin-top: 33px;
+    }
+    .banner-bg_trolls_home .oreo-trolls-left-content.trolls-info {
+        margin-top: 48px;
+    }
+    .trolls-info h2 {
+        font-size: 25px;
+        line-height: 26px;
+    }
+    .oreo-trolls-left-content.trolls-info {
+        width: 275px;
+    }
+    .trolls-info h1 {
+        font-size: 54.31px;
+        line-height: 48.64px;
+    }
+    .trolls-info h1 span {
+        font-size: 23.6px;
+        margin-top: 0;
+    }
+    .trolls-info p {
+        font-size: 14px;
+    }
+    .play-btn {
+        width: 228.42px;
+        padding: 0 !important;
+        height: 30px;
+        line-height: 30px;
+    }
+    .postheader .trolls-info p {
+        margin: 13px 0 12px;
+    }
+    .banner-bg_trolls_home.postheader .trolls-info p {
+        margin: 6px 0 11px;
+    }
+    /* ---------Home 2---------- */
+    .banner-bg_trolls_home_two .plus {
+        margin-left: -9px;
+        width: 70px;
+    }
+    .banner-bg_trolls_home_two .experience {
+        margin-left: -8px;
+        width: 200px;
+    }
+    .banner-bg_trolls_home_two .oreo-trolls-right-content.trolls-info {
+        width: 221px;
+    }
+    .banner-bg_trolls_home_two .trolls-stream p {
+        font-size: 18px;
+        line-height: 19px;
+    }
+    .banner-bg_trolls_home_two .trolls-stream span {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .banner-bg_trolls_home_two .trolls-preorder p {
+        line-height: 18px;
+        font-size: 18px;
+    }
+    .banner-bg_trolls_home_two .oreo-trolls-left-content.trolls-info img {
+        margin-top: 23px;
+        margin-left: -15px;
+        width: 345px;
+    }
+    .audio {
+        height: 80px;
+    }
+    .back-btn {
+        width: 90px;
+        padding: 0 !important;
+        height: 30px;
+        line-height: 27px;
+    }
+    .banner-bg_trolls_home_two .oreo-trolls-right-content.trolls-info {
+        margin-top: 45px;
+    }
+    .banner-bg_trolls_home_two .trolls-stream span {
+        line-height: 1;
+        margin-top: 0;
+        margin-bottom: 3px;
+    }
+    .postheader.banner-bg_trolls_home_two .trolls-info p {
+        margin: 3px 0 -2px;
+    }
+}
+
+@media (max-width:767.98px) {
+    .postheader.banner-bg_trolls_mobile_home .pos-ab {
+        left: 20px;
+    }
+    .audio>img {
+        padding-left: 20px;
+    }
+    #SFAbanner1,
+    #SFAbanner2 {
+        display: none;
+    }
+    #SFAmbanner1 {
+        display: block;
+    }
+    .postheader.banner-bg_trolls_mobile_home,
+    .banner-bg_trolls_mobile_home_scan,
+    .banner-bg_trolls_mobile_home_sing,
+    .postheader.banner-bg_trolls_mobile_home_two {
+        min-height: 667px !important;
+        padding-left: 35px;
+    }
+    .banner-bg_trolls_mobile_home_sing .audio {
+        height: 117px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .postheader.banner-bg_trolls_mobile_home {
+        background-image: url(../images/banners/oreo-trolls-mobile-home-1-xl.jpg);
+        background-position: center center;
+        overflow: hidden;
+    }
+    .postheader.banner-bg_trolls_mobile_home_scan {
+        background-image: url(../images/banners/oreo-trolls-mobile-home-scan-xl.jpg);
+        background-position: center center;
+        overflow: hidden;
+    }
+    .banner-bg_trolls_mobile_home_sing {
+        background-image: url(../images/banners/oreo-trolls-mobile-home-sing-xl.jpg);
+        background-position: center center;
+        background-size: cover;
+        overflow: hidden;
+    }
+    .banner-bg_trolls_mobile_home_two {
+        background-image: url(../images/banners/oreo-trolls-mobile-home-2-xl.jpg);
+        background-position: center center;
+        overflow: hidden;
+    }
+    .postheader.banner-bg_trolls_mobile_home_scan .oreo-trolls-left-content.trolls-info {
+        margin-top: 435px;
+    }
+    .trolls-world-tour {
+        height: 60px;
+        width: 83px;
+        background-image: url(../images/banners/trolls-world-tour-mobile.png);
+    }
+    .trolls-info h2 {
+        font-size: 20px;
+        line-height: 20px;
+        margin-bottom: 5px;
+    }
+    .just-sing {
+        width: 293px;
+        margin-left: -8px;
+    }
+    .trolls-preorder {
+        margin-top: 0;
+        margin-bottom: 22px;
+    }
+    .oreo-trolls-left-content.trolls-info {
+        width: 100%;
+        margin-top: 160px;
+    }
+    .trolls-info p {
+        font-size: 10px;
+        line-height: 10.63px;
+        margin: 0 0 3px !important;
+    }
+    .play-btn {
+        width: 194.4px;
+        padding: 0 !important;
+        height: 32px;
+        line-height: 32px;
+        font-size: 11.05px;
+    }
+    .trolls-world {
+        width: 166px !important;
+        margin-top: 14px;
+    }
+    .trolls-preorder .blank-btn {
+        margin-top: 18px;
+        font-size: 11.5px;
+        display: block;
+    }
+    .blank-btn {
+        width: 193.13px;
+    }
+    .trolls-world-tour {
+        height: 60px;
+        width: 83px;
+        background-image: url(../images/banners/trolls-world-tour-mobile.png);
+    }
+    .pos-ab {
+        left: 35px;
+    }
+    .pos-ab p {
+        color: rgba(255, 255, 255, .3);
+        letter-spacing: -.1px;
+    }
+    .pg-logo img {
+        width: 35px;
+    }
+    .pg-logo {
+        right: 8px;
+        bottom: 14px;
+    }
+    .mb-back {
+        position: absolute;
+        right: 15px;
+        bottom: 50px;
+        width: 94px;
+        height: 29px;
+        font-size: 11.05px;
+    }
+    .postheader.banner-bg_trolls_mobile_home_scan .oreo-trolls-left-content.trolls-info {
+        margin-top: 435px;
+        margin-left: 0;
+    }
+    .scaning h2 {
+        color: #fff;
+        font-size: 22px;
+        line-height: 22.5px;
+        text-align: center;
+        margin: 0;
+        font-family: 'PlutoCond';
+        font-weight: 800;
+    }
+    .scaning h2 span {
+        display: block;
+    }
+    .scaning {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .banner-bg_trolls_mobile_home_sing .oreo-trolls-left-content.trolls-info {
+        width: 100%;
+        margin-top: 0;
+        padding-left: 35px;
+    }
+    .banner-bg_trolls_mobile_home_sing .oreo-trolls-left-content.trolls-info img.just-sing {
+        width: 145px;
+        margin-left: -8px;
+    }
+    .banner-bg_trolls_mobile_home_sing.postheader {
+        padding: 98px 0 0;
+    }
+    .banner-bg_trolls_mobile_home_sing .trolls-info h2 {
+        font-size: 24px;
+        line-height: 26px;
+        font-family: 'PlutoCond';
+        font-weight: 700;
+    }
+    .banner-bg_trolls_mobile_home_sing .audio {
+        height: 58px;
+        margin-bottom: 100px;
+        max-width: 90%;
+    }
+    .banner-bg_trolls_mobile_home_sing .play-btn {
+        margin-top: 5px;
+    }
+    .banner-bg_trolls_mobile_home_sing .trolls-world-tour {
+        margin-top: 11px;
+    }
+    .banner-bg_trolls_mobile_home_sing .experience {
+        margin-left: -8px;
+    }
+    .postheader.banner-bg_trolls_mobile_home_two .oreo-trolls-left-content.trolls-info {
+        width: 100%;
+        margin-top: 0;
+    }
+    .postheader.banner-bg_trolls_mobile_home_two {
+        padding: 91px 0 0 35px;
+    }
+    .postheader.banner-bg_trolls_mobile_home_two .trolls-info h2 {
+        font-family: 'PlutoCond';
+        font-weight: 700;
+        font-size: 24px;
+        margin-bottom: 8px;
+        line-height: 24px;
+    }
+    .postheader.banner-bg_trolls_mobile_home_two .trolls-preorder {
+        margin-top: 202px;
+        margin-bottom: 22px;
+    }
+    .postheader.banner-bg_trolls_mobile_home_two .play-btn {
+        margin-top: 8px;
+    }
+    .postheader.banner-bg_trolls_mobile_home_two .trolls-world {
+        margin-top: 8px;
+        display: block;
+    }
+    .postheader.banner-bg_trolls_mobile_home_two .trolls-preorder .blank-btn {
+        margin-top: 12px;
+    }
+    .postheader.banner-bg_trolls_mobile_home_two .experience {
+        margin-left: -8px;
+    }
+    .postheader.banner-bg_trolls_mobile_home .oreo-trolls-left-content.trolls-info>img.just-sing {
+        width: 293px;
+        margin-left: -8px;
+    }
+    .oreo-trolls-left-content.trolls-info img.experience {
+        max-width: 310px;
+    }
+}
+
+@media (min-width:576px) and (max-width:767.98px) {
+    .trolls-preorder {
+        margin-top: 0;
+        margin-bottom: 12px;
+    }
+    .play-btn {
+        margin-top: 0;
+    }
+    img.just-sing {
+        margin-left: -10px;
+    }
+    .trolls-world {
+        margin-top: 15px;
+    }
+    .postheader .trolls-info p {
+        margin: 5px 0 12px;
+    }
+    .trolls-preorder .blank-btn {
+        margin-top: 10px;
+    }
+    .pg-logo {
+        right: 10px;
+        bottom: 10px;
+    }
+}
+
+@media (max-width:575px) {
+    .postheader.banner-bg_trolls_mobile_home {
+        background-image: url(../images/banners/oreo-trolls-mobile-home-1-md.jpg);
+        /* background-position: center center; */
+    }
+    .postheader.banner-bg_trolls_mobile_home_scan {
+        background-image: url(../images/banners/oreo-trolls-mobile-home-scan-md.jpg);
+        /* background-position: center center */
+    }
+    .banner-bg_trolls_mobile_home_sing {
+        background-image: url(../images/banners/oreo-trolls-mobile-home-sing-md.jpg);
+        /* background-position: center center */
+    }
+    .banner-bg_trolls_mobile_home_two {
+        background-image: url(../images/banners/oreo-trolls-mobile-home-2-md.jpg);
+        /* background-position: center center */
+    }
+    .postheader.banner-bg_trolls_mobile_home,
+    .banner-bg_trolls_mobile_home_scan,
+    .banner-bg_trolls_mobile_home_sing,
+    .postheader.banner-bg_trolls_mobile_home_two {
+        min-height: 667px !important;
+        padding-left: 35px;
+    }
+    .trolls-info h2 {
+        font-size: 20px;
+        line-height: 20px;
+        margin-bottom: 5px;
+    }
+    .just-sing {
+        width: 293px;
+        margin-left: -8px;
+    }
+    .trolls-preorder {
+        margin-top: 0;
+        margin-bottom: 22px;
+    }
+    .oreo-trolls-left-content.trolls-info {
+        width: 100%;
+        margin-top: 130px;
+    }
+    .trolls-info p {
+        font-size: 10px;
+        line-height: 10.63px;
+        margin: 0 0 3px !important;
+    }
+    .play-btn {
+        width: 194.4px;
+        padding: 0 !important;
+        height: 32px;
+        line-height: 32px;
+        font-size: 11.05px;
+    }
+    .trolls-world {
+        width: 166px !important;
+        margin-top: 14px;
+    }
+    .trolls-preorder .blank-btn {
+        margin-top: 18px;
+        font-size: 11.5px;
+        display: block;
+    }
+    .blank-btn {
+        width: 193.13px;
+    }
+    .trolls-world-tour {
+        height: 60px;
+        width: 83px;
+        background-image: url(../images/banners/trolls-world-tour-mobile.png);
+    }
+    .pos-ab {
+        position: absolute;
+        left: 35px;
+        bottom: 20px;
+        width: auto;
+    }
+    .pos-ab p {
+        color: rgba(255, 255, 255, .3);
+        letter-spacing: -.1px;
+    }
+    .pg-logo img {
+        width: 35px;
+    }
+    .pg-logo {
+        right: 8px;
+        bottom: 14px;
+    }
+    .mb-back {
+        position: absolute;
+        right: 15px;
+        bottom: 50px;
+        width: 94px;
+        height: 29px;
+        font-size: 11.05px;
+    }
+    .postheader.banner-bg_trolls_mobile_home_scan .oreo-trolls-left-content.trolls-info {
+        margin-top: 435px;
+    }
+    .scaning h2 {
+        color: #fff;
+        font-size: 22px;
+        line-height: 22.5px;
+        text-align: center;
+        margin: 0;
+        font-family: 'PlutoCond';
+        font-weight: 800;
+    }
+    .scaning h2 span {
+        display: block;
+    }
+    .scaning {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .banner-bg_trolls_mobile_home_sing .oreo-trolls-left-content.trolls-info {
+        width: 100%;
+        margin-top: 0;
+        padding-left: 35px;
+    }
+    .banner-bg_trolls_mobile_home_sing .oreo-trolls-left-content.trolls-info img.just-sing {
+        width: 145px;
+        margin-left: -8px;
+    }
+    .banner-bg_trolls_mobile_home_sing.postheader {
+        padding: 98px 0 0;
+    }
+    .banner-bg_trolls_mobile_home_sing .trolls-info h2 {
+        font-size: 24px;
+        line-height: 26px;
+        font-family: 'PlutoCond';
+        font-weight: 700;
+    }
+    .banner-bg_trolls_mobile_home_sing .audio {
+        height: 58px;
+        margin-bottom: 65px;
+        max-width: 90%;
+    }
+    .banner-bg_trolls_mobile_home_sing .play-btn {
+        margin-top: 29px;
+    }
+    .banner-bg_trolls_mobile_home_sing .trolls-world-tour {
+        margin-top: 30px;
+    }
+    .banner-bg_trolls_mobile_home_sing .experience {
+        margin-left: -8px;
+    }
+    .postheader.banner-bg_trolls_mobile_home_two .oreo-trolls-left-content.trolls-info {
+        width: 100%;
+        margin-top: 0;
+    }
+    .postheader.banner-bg_trolls_mobile_home_two {
+        padding: 91px 0 0 35px;
+    }
+    .postheader.banner-bg_trolls_mobile_home_two .trolls-info h2 {
+        font-family: 'PlutoCond';
+        font-weight: 700;
+        font-size: 24px;
+        margin-bottom: 8px;
+        line-height: 24px;
+    }
+    .postheader.banner-bg_trolls_mobile_home_two .trolls-preorder {
+        margin-top: 202px;
+        margin-bottom: 22px;
+    }
+    .postheader.banner-bg_trolls_mobile_home_two .play-btn {
+        margin-top: 8px;
+    }
+    .postheader.banner-bg_trolls_mobile_home_two .trolls-world {
+        margin-top: 8px;
+        display: block;
+    }
+    .postheader.banner-bg_trolls_mobile_home_two .trolls-preorder .blank-btn {
+        margin-top: 12px;
+    }
+    .postheader.banner-bg_trolls_mobile_home_two .experience {
+        margin-left: -8px;
+    }
+    .postheader.banner-bg_trolls_mobile_home .oreo-trolls-left-content.trolls-info>img.just-sing {
+        width: 293px;
+        margin-left: -8px;
+    }
+    .oreo-trolls-left-content.trolls-info img.experience {
+        max-width: 310px;
+    }
+}
+
+@media (max-width:375px) {
+    .postheader.banner-bg_trolls_mobile_home {
+        background-image: url(../images/banners/oreo-trolls-mobile-home-1-sm.jpg);
+        /* background-position: center center */
+    }
+    .postheader.banner-bg_trolls_mobile_home_scan {
+        background-image: url(../images/banners/oreo-trolls-mobile-home-scan-sm.jpg);
+        /* background-position: center center */
+    }
+    .banner-bg_trolls_mobile_home_sing {
+        background-image: url(../images/banners/oreo-trolls-mobile-home-sing-sm.jpg);
+        /* background-position: center center */
+    }
+    .banner-bg_trolls_mobile_home_two {
+        background-image: url(../images/banners/oreo-trolls-mobile-home-2-sm.jpg);
+        /* background-position: center center */
+    }
+}
+
+@media (max-width:374px) {
+    .just-sing {
+        width: 280px;
+    }
+    .postheader.banner-bg_trolls_mobile_home {
+        padding-left: 15px;
+    }
+    .pos-ab {
+        left: 15px;
+    }
+    .postheader.banner-bg_trolls_mobile_home,
+    .banner-bg_trolls_mobile_home_scan,
+    .banner-bg_trolls_mobile_home_sing .oreo-trolls-left-content.trolls-info {
+        padding-left: 15px;
+    }
+    .banner-bg_trolls_mobile_home_sing .experience {
+        width: 279px;
+    }
+    .banner-bg_trolls_mobile_home_sing .trolls-info h2 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .banner-bg_trolls_mobile_home_sing .experience {
+        margin-top: 4px;
+    }
+    .banner-bg_trolls_mobile_home_sing .play-btn {
+        margin-top: 10px;
+    }
+    .banner-bg_trolls_mobile_home_sing .trolls-world-tour {
+        margin-top: 63px;
+    }
+    .postheader.banner-bg_trolls_mobile_home_two {
+        padding: 81px 0 0 15px;
+    }
+    .postheader.banner-bg_trolls_mobile_home_two .experience {
+        width: 285px;
+    }
+    .postheader.banner-bg_trolls_mobile_home_two .trolls-world {
+        margin-top: 18px;
+    }
+}
+
+@media (max-width:320px) {
+    .postheader.banner-bg_trolls_mobile_home {
+        background-image: url(../images/banners/oreo-trolls-mobile-home-1-xs.jpg);
+        /* background-position: center center */
+    }
+    .postheader.banner-bg_trolls_mobile_home_scan {
+        background-image: url(../images/banners/oreo-trolls-mobile-home-scan-xs.jpg);
+        /* background-position: center center */
+    }
+    .postheader.banner-bg_trolls_mobile_home_sing {
+        background-image: url(../images/banners/oreo-trolls-mobile-home-sing-xs.jpg);
+        /* background-position: center center */
+    }
+    .banner-bg_trolls_mobile_home_two {
+        background-image: url(../images/banners/oreo-trolls-mobile-home-2-xs.jpg);
+        /* background-position: center center */
+    }
+    .trolls-preorder .blank-btn {
+        width: 166.32px;
+    }
+    .play-btn {
+        width: 166.32px;
+    }
+}

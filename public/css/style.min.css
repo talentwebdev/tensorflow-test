@@ -1,0 +1,3060 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+body {
+    background: url(../images/bg-dot.png) #f6f6f6
+}
+
+.ctitle,
+.mybtn,
+.mybtnhm,
+.ptitle,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: PlutoCondBold
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.04375rem
+}
+
+.mymenu,
+.navlist,
+ul.socialnet,
+ul.vlist {
+    list-style: none
+}
+
+.btn-round,
+.input-round,
+.mybtn,
+.mybtnhm {
+    border-radius: 20px
+}
+
+.ctitle,
+.mybtn,
+.mybtnhm,
+.ptitle {
+    font-weight: normal !important;
+    font-family: PlutoCondBold
+}
+
+.bg,
+.bg_4,
+.bg2,
+.preheader {
+    left: 0;
+    top: 0;
+    width: 100%
+}
+
+.mybtn,
+.mybtnhm {
+    padding: 8px 20px;
+    font-size: 15px;
+    line-height: 22px;
+    height: 40px;
+    box-shadow: 1.5px 2.6px 0 0 rgba(0, 0, 0, .18)
+}
+
+.mybtnhm {
+    max-width: 284px;
+    width: 284px;
+    height: 42px;
+    line-height: 26px;
+    box-shadow: 1.5px 2.6px 0 0 rgba(153, 123, 69, .18);
+}
+
+.mybtn.btn-dark {
+    color: #fff;
+    background-color: #242021;
+    border-color: #1d2124
+}
+
+.mybtn.btn-dark:hover,
+.mybtn.btn-light:hover {
+    color: #fff;
+    background-color: #0858c1;
+    border-color: #0858c1;
+}
+
+.mybtn.btn-light {}
+
+.mybtn.btn-light:hover {}
+
+.mybtnhm.btn-gold {
+    color: #231f20;
+    border-color: #a08249;
+}
+
+.mybtnhm.btn-gold:hover {
+    color: #231f20;
+    background-color: #967844;
+    background-image: url(../images/btn-golden.png);
+    background-repeat: repeat-y;
+    border-color: #a08249;
+}
+
+a {
+    transition: all .4s
+}
+
+.fs0 {
+    font-size: 0
+}
+
+.mymenu:after,
+.mymenu:before,
+.navlist:after,
+.navlist:before {
+    content: '';
+    display: table;
+    clear: both
+}
+
+.banner-bg1,
+.banner-bg1_4,
+.banner-bg2,
+.banner-bg3 {
+    position: relative
+}
+
+.bg,
+.bg_4,
+.bg2 {
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: absolute;
+    height: 100%;
+    z-index: 0
+}
+
+.wiz-bg {
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.pt-20 {
+    padding-top: 20px
+}
+
+.py-90 {
+    padding-top: 90px;
+    padding-bottom: 90px
+}
+
+.pb-10 {
+    padding-bottom: 10px
+}
+
+.pb-90 {
+    padding-bottom: 90px
+}
+
+.pb-95 {
+    padding-bottom: 95px
+}
+
+.pb-98 {
+    padding-bottom: 98px
+}
+
+.pb-86 {
+    padding-bottom: 86px
+}
+
+.pb-105 {
+    padding-bottom: 105px
+}
+
+.pb-170 {
+    padding-bottom: 170px
+}
+
+.pb-140 {
+    padding-bottom: 140px
+}
+
+.pb-195 {
+    padding-bottom: 195px
+}
+
+.ctitle,
+.ptitle {
+    font-size: 36px;
+    line-height: 42px
+}
+
+.package .ptitle {
+    font-size: 32px;
+    line-height: 40px
+}
+
+.coupon-box .ctitle,
+.coupon-box .ptitle {
+    font-size: 31px;
+    font-weight: 500;
+    line-height: 40px
+}
+
+.nobr {
+    white-space: nowrap
+}
+
+.header {
+    position: relative;
+    min-height: auto;
+}
+
+.preheader {
+    position: fixed;
+    height: auto;
+    padding: 0 15px;
+    z-index: 9
+}
+
+body.header-scrollable .preheader {
+    background: linear-gradient(180deg, rgba(51, 51, 51, .3), transparent);
+    transition: all .4s cubic-bezier(.55, .085, .68, .53)
+}
+
+.preheader.nav-down {
+    transform: translateY(-150%);
+    transition: all .4s cubic-bezier(.55, .085, .68, .53)
+}
+
+.mynavbar {
+    height: 100px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbox {
+    width: calc(100% - 95px);
+    height: 40px;
+    margin-top: 24px;
+    float: right;
+    padding: 0 15px
+}
+
+.mybrand,
+.mybrand img {
+    display: block
+}
+
+.mybrand {
+    position: absolute;
+    z-index: 1;
+    left: 0
+}
+
+.mymenu {
+    display: inline-block;
+    margin: 0;
+    padding: 0
+}
+
+.mymenu li {
+    display: block;
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    width: 180px
+}
+
+.mymenu li.open .navlink:after,
+.mymenu li.open .navlink:before {
+    position: absolute;
+    content: '';
+    width: 22px;
+    height: 22px;
+    z-index: 6;
+    bottom: -1px;
+    background-image: url(../images/nav-radius.png)
+}
+
+.mymenu li.open:first-child .navlink:before {
+    content: none
+}
+
+.mymenu li.open .navlink:before {
+    left: -21px;
+    transform: rotate(270deg)
+}
+
+.mymenu li.open .navlink:after {
+    right: -21px
+}
+
+.mymenu li .navlink {
+    background-color: #fff;
+    border: 2px solid #d3e8f6;
+    border-radius: 25px;
+    height: 40px
+}
+
+.mymenu li:not(.open) .navlink:hover {
+    border-color: #1b8bd9;
+    background-color: #1b8bd9;
+    color: #fff
+}
+
+.mymenu li:not(.open) .navlink:hover a,
+.mymenu li:not(.open) .navlink:hover span {
+    color: #fff
+}
+
+.mymenu li .navlink a,
+.mymenu li .navlink span {
+    font-family: PlutoCondBold;
+    font-size: .875rem;
+    font-weight: normal !important;
+    line-height: 1.14;
+    letter-spacing: .04375rem;
+    padding: 10px 15px;
+    display: block;
+    text-decoration: none;
+    color: #2e3033;
+    cursor: pointer
+}
+
+.mymenu li.open .navlink a,
+.mymenu li.open .navlink span {
+    color: #0858c1
+}
+
+.mymenu li.open .navlink {
+    border-radius: 25px 25px 0 0;
+    padding-bottom: 10px;
+    border-bottom: 0;
+    height: 55px;
+    position: relative;
+    z-index: 5
+}
+
+.innerDropdown,
+.magamenu h3 {
+    border-bottom: 2px solid #d3e8f6
+}
+
+.mymenu li .navlink i.fa {
+    float: right
+}
+
+.mymenu li .navlink i.navarrow {
+    font-size: 24px;
+    line-height: 6px;
+    position: relative;
+    top: 3px
+}
+
+.mymenu li .navlink i.navarrow:before {
+    content: "\f107"
+}
+
+.mymenu li.open .navlink i.navarrow:before {
+    content: "\f106"
+}
+
+.mymenu>li>.navlink>a>i.fa {
+    margin-top: 1px
+}
+
+.navtitle .navarrow2 {
+    font-size: 18px;
+    line-height: 6px;
+    position: relative;
+    top: 3px;
+    float: right
+}
+
+.navtitle .navarrow2:before {
+    content: "\f105"
+}
+
+.navtitle.active .navarrow2:before {
+    content: "\f104"
+}
+
+.mymenu li .mydropdown {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 20px;
+    min-width: 390px;
+    border: 2px solid #d3e8f6;
+    margin-top: -2px;
+    padding: 40px;
+    z-index: 3
+}
+
+.mymenu li:first-child .mydropdown {
+    border-radius: 0 20px 20px
+}
+
+.mymenu li.open .mydropdown {
+    display: block
+}
+
+.magamenu {
+    position: static!important
+}
+
+.magamenu .mydropdown {
+    width: 100%;
+    left: 0
+}
+
+.magamenu .navtitle>i {
+    font-style: normal
+}
+
+.magamenu .navtitle>span {
+    display: none
+}
+
+.magamenu h3 {
+    color: #231F20;
+    font-family: PlutoCondBold;
+    font-size: 14px;
+    font-weight: normal !important;
+    line-height: 1.14;
+    padding-bottom: 8px
+}
+
+.innerDropdown {
+    border-top: 2px solid #d3e8f6;
+    padding: 20px 0
+}
+
+.magamenu .innerDropdown {
+    border: 0
+}
+
+.navlist {
+    margin: 0;
+    padding: 0
+}
+
+.navlist li {
+    display: block;
+    margin: 0;
+    width: 100%;
+    padding: 6px 0;
+    line-height: 18px
+}
+
+.navlist li a {
+    font-family: PlutoCondBold;
+    font-size: 14px;
+    font-weight: normal !important;
+    line-height: 18px;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #2e3033
+}
+
+.openoreo p,
+.postheader p,
+.postheader small {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navlist li a:hover,
+.navlist li.active a {
+    color: #0858c1
+}
+
+.mynavbar .socialnet li a {
+    background: #fff;
+    color: #111;
+    width: 40px;
+    height: 40px;
+    line-height: 35px;
+    font-size: 20px;
+    border: 2px solid #d3e8f6
+}
+
+.mynavbar .socialnet li a:hover {
+    background-color: #1b8bd9;
+    color: #fff;
+    border-color: #1b8bd9
+}
+
+.mynavbar ul.socialnet li {
+    padding-left: 5px;
+    padding-right: 5px
+}
+
+.mynavbar ul.socialnet li:first-child {
+    padding-left: 0
+}
+
+.mynavbar ul.socialnet li i {
+    line-height: 36px
+}
+
+.postheader {
+    max-height: 600px;
+    position: relative;
+    padding: 115px 0 0;
+    margin-bottom: 0
+}
+
+.openoreo .mybtn,
+.postheader .mybtn {
+    padding-left: 100px;
+    padding-right: 100px
+}
+
+.postheader .mybtnhm {
+    background: rgba(0, 0, 0, 0) -moz-linear-gradient(to right, rgb(208, 180, 101) 0%, rgb(249, 230, 186) 50%, rgb(153, 123, 69) 100%);
+    background: rgba(0, 0, 0, 0) -moz-webkit-gradient(to right, rgb(208, 180, 101) 0%, rgb(249, 230, 186) 50%, rgb(153, 123, 69) 100%);
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(208, 180, 101) 0%, rgb(249, 230, 186) 50%, rgb(153, 123, 69) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#d0b465', endColorstr='#997b45', GradientType=1);
+}
+
+.postheader.bg {
+    background-image: -moz-radial-gradient(50% 50%, circle closest-side, #3b9bdd 0, #0858c1 100%);
+    background-image: -webkit-radial-gradient(50% 50%, circle closest-side, #3b9bdd 0, #0858c1 100%);
+    background-image: -ms-radial-gradient(50% 50%, circle closest-side, #3b9bdd 0, #0858c1 100%)
+}
+
+.postheader p {
+    font-size: 16px;
+    color: #231f20;
+    line-height: 24px;
+    margin: 18px 0 17px
+}
+
+.thestufinside img {
+    position: relative;
+    left: -15px
+}
+
+.thestufinside img.wzimg {
+    left: 0
+}
+
+.rzcontainer {
+    position: absolute;
+    max-width: 1288px;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 96px
+}
+
+.feature-box1,
+.feature-boxs,
+.openoreo img,
+.postheader small,
+.thin-body {
+    position: relative
+}
+
+.postheader small {
+    font-size: 9px;
+    line-height: 11px;
+    right: 0;
+    color: #515356;
+    max-width: 580px;
+    display: block;
+    margin-left: auto;
+    text-align: center
+}
+
+.fbx-title,
+.thin-box.bg-blue h2 {
+    color: #fff
+}
+
+.bg-dot {
+    background: url(../images/bg-dot.png) #f6f6f6
+}
+
+.bg-confetti {
+    background-image: url(../images/confetti.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto
+}
+
+.happy-holiday.bg-confetti {
+    background-image: url(../images/confetti-happy-holiday.png);
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: auto;
+}
+
+.openoreo p {
+    font-size: 16px;
+    line-height: 24px
+}
+
+.happy-holiday .text-center.text-lg-left h2 {
+    font-size: 25px;
+    font-family: PlutoCondBlack;
+    line-height: 24.61px;
+}
+
+
+/* .happy-holiday .text-center.text-lg-left p {
+    font-size: 10px;
+    line-height: 15px;
+    font-family: PlutoRegular;
+} */
+
+.fbx-body h3,
+.fbx-body small,
+.fbx-title,
+.recipe-box h2,
+.thin-body h2 {
+    font-family: PlutoCondBold
+}
+
+.openoreo img {
+    right: -105px
+}
+
+.thinsoreo .bg-blue {
+    background-image: -moz-radial-gradient(50% 50%, circle closest-side, #0858c1 0, #003087 100%);
+    background-image: -webkit-radial-gradient(50% 50%, circle closest-side, #0858c1 0, #003087 100%);
+    background-image: -ms-radial-gradient(50% 50%, circle closest-side, #0858c1 0, #003087 100%)
+}
+
+.thinsoreo .bg-white {
+    background-color: #ffff
+}
+
+.thin-body>div {
+    margin: 0 auto;
+    width: 280px;
+    text-align: center
+}
+
+.thin-body h2 {
+    font-size: 32px;
+    font-weight: normal !important;
+    line-height: 40px;
+    margin-bottom: 20px
+}
+
+.thin-body {
+    top: -40px;
+    margin-top: -22px
+}
+
+.feature-bg {
+    padding: 165px 0 246px
+}
+
+.feature-boxs {
+    max-width: 508px;
+    margin: 0 auto
+}
+
+.feature-box1 {
+    max-width: 390px
+}
+
+.fbx-cookie {
+    position: absolute;
+    top: -32px;
+    right: -252px
+}
+
+.feature-box2 {
+    background-color: #fff;
+    max-width: 338px;
+    box-shadow: 2px 1px 8px 0 #999;
+    transform: rotate(-7deg);
+    position: absolute;
+    left: -40px;
+    bottom: 0
+}
+
+.fbx-head {
+    padding: 20px 20px 10px;
+    position: relative
+}
+
+.fbx-title {
+    position: absolute;
+    background: #3b9bdd;
+    display: inline-block;
+    line-height: 22px;
+    font-size: 17px;
+    font-weight: normal !important;
+    padding: 5px 38px;
+    border-radius: 0 20px 20px 0;
+    top: 32px;
+    left: -20px;
+    background-image: -moz-linear-gradient(0deg, #3b9bdd 0, #0858c1 100%);
+    background-image: -webkit-linear-gradient(0deg, #3b9bdd 0, #0858c1 100%);
+    background-image: -ms-linear-gradient(0deg, #3b9bdd 0, #0858c1 100%)
+}
+
+.fbx-title:after {
+    content: '';
+    border-top: 20px solid #3b9bdd;
+    border-left: 20px solid transparent;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    bottom: -20px;
+    width: 0;
+    height: 0
+}
+
+.fbx-img {
+    max-width: 100%
+}
+
+.fbx-body {
+    padding: 10px 20px 20px
+}
+
+.fbx-body>.innerFbx {
+    max-width: 205px;
+    margin: 0 auto;
+    text-align: center
+}
+
+.fbx-body h3 {
+    color: #0858c1;
+    font-size: 18.56px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 5px
+}
+
+.fbx-body small {
+    font-size: 14.85px;
+    font-weight: 300;
+    line-height: 18px;
+    display: block;
+    margin-bottom: 10px
+}
+
+.makeit {
+    padding: 8px 36px
+}
+
+.recipe-box {
+    padding-top: 75px;
+    margin: 0 3px
+}
+
+.recipe-box h2 {
+    font-size: 36px;
+    font-weight: normal !important;
+    line-height: 42px
+}
+
+.recipe-box p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 45px
+}
+
+.recipe-box .mybtn {
+    padding: 8px 82px
+}
+
+.fourzero {
+    padding: 200px 0 100px;
+}
+
+.fourzero p {
+    margin-bottom: 40px
+}
+
+.fourzero .mybtn {
+    width: 280px;
+    max-width: 100%
+}
+
+.fz-text {
+    overflow: hidden;
+    padding-top: 30px
+}
+
+.fz-text h2 {
+    font-family: PlutoCondBold;
+    font-size: 36px;
+    font-weight: 800
+}
+
+.coupon-info p,
+.fz-text p {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.pb-145 {
+    padding-bottom: 145px
+}
+
+.fz-img img {
+    max-width: 820px;
+    width: 100%
+}
+
+.mp-24 {
+    margin-top: 24px
+}
+
+.coupon-info p {
+    line-height: 24px;
+    margin: 0
+}
+
+.coupon-info .mybtn {
+    padding-left: 105px;
+    padding-right: 105px;
+    margin-top: 24px
+}
+
+.coupon-box h3 {
+    color: #fff;
+    margin-bottom: 0
+}
+
+.coupon-box p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 6px
+}
+
+.coupon-box .mybtn {
+    padding-left: 48px;
+    padding-right: 48px
+}
+
+.coupon-box .cbx-holder {
+    height: 105px;
+    max-height: 105px;
+    position: relative;
+    margin: 0
+}
+
+.coupon-box .cbx-img {
+    position: absolute;
+    left: 10px;
+    top: -60px
+}
+
+.package h2 {
+    font-family: PlutoCondBold;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px
+}
+
+.package p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 24px
+}
+
+.package .mybtn {
+    padding-left: 105px;
+    padding-right: 105px
+}
+
+.cookieArea {
+    background-color: rgba(27, 139, 217, .902);
+    box-shadow: -4.47px 6.63px 6.84px 2.16px rgba(0, 0, 0, .25);
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 0;
+    max-height: 333px;
+    padding: 48px 15px;
+    display: none
+}
+
+.cookieArea h2 {
+    color: #fff;
+    margin: 0;
+    font-family: PlutoCondBold;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 64px
+}
+
+.cookieArea p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    margin: 0
+}
+
+.cookieArea a {
+    color: #fff;
+    text-decoration: underline
+}
+
+.cookiebtn {
+    position: relative;
+    max-height: 187px
+}
+
+.cookiebtn img {
+    display: block;
+    margin: 0 auto
+}
+
+.brandftr,
+ul.socialnet {
+    display: table
+}
+
+.cookiebtn button {
+    position: absolute;
+    top: 114px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 1;
+    width: 153px
+}
+
+.footer {
+    background-color: #edefee
+}
+
+.innerPrefooter {
+    height: 105px;
+    border-bottom: 2px solid #fff
+}
+
+.socialnet:after,
+.socialnet:before {
+    content: '';
+    display: table;
+    clear: both
+}
+
+ul.socialnet {
+    margin: 0;
+    padding: 0;
+    float: right;
+    width: auto
+}
+
+ul.socialnet li {
+    float: left;
+    padding: 0 14px
+}
+
+ul.socialnet li:first-child {
+    padding-left: 0
+}
+
+ul.socialnet li:last-child {
+    padding-right: 0
+}
+
+ul.socialnet li a {
+    display: block;
+    text-align: center;
+    background: #111;
+    width: 33px;
+    height: 33px;
+    line-height: 33px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none
+}
+
+ul.socialnet li i {
+    display: block;
+    margin: auto
+}
+
+.prefooter ul.socialnet li i {
+    line-height: 33px
+}
+
+.midfooter h2 {
+    font-family: PlutoCondBold;
+    font-size: 14px;
+    font-weight: 700
+}
+
+.innerMidfooter {
+    padding-top: 40px;
+    padding-bottom: 100px;
+    border-bottom: 2px solid #fff
+}
+
+ul.vlist {
+    margin: 0;
+    padding: 0
+}
+
+ul.vlist li {
+    padding: 8px 0;
+    line-height: 18px
+}
+
+ul.vlist li a {
+    font-family: 'Roboto', sans-serif;
+    color: #4a4a4a;
+    font-size: 14px;
+    text-decoration: none
+}
+
+.ftrsubscribe h2,
+.postfooter p {
+    font-family: PlutoCondBold;
+    font-size: 14px
+}
+
+ul.vlist li a:hover {
+    color: #0858c1
+}
+
+.postfooter p {
+    font-weight: normal !important;
+    padding: 25px 0;
+    line-height: 26px;
+    margin-bottom: 0
+}
+
+.ftrsubscribe h2 {
+    font-weight: normal !important;
+    line-height: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 31px
+}
+
+.ftrsubscribe .form-group {
+    margin-bottom: 25px
+}
+
+.ftrsubscribe input {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    line-height: 13px;
+    padding: 10px 19px;
+    height: 36px
+}
+
+.formInput,
+.inrFormGroup {
+    height: 38px
+}
+
+.ftrsubscribe button {
+    padding: 8px 36px
+}
+
+.formGroup * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.formGroup {
+    font-family: 'Roboto', sans-serif;
+    font-size: .625rem;
+    letter-spacing: .06875rem;
+    margin-bottom: 15px
+}
+
+.formGroup:last-child {
+    margin: 0
+}
+
+.formInput {
+    border: 1px solid #bdbdbd;
+    box-shadow: none;
+    background: #fff;
+    color: #606060;
+    padding: 4px 12px 6px 10px;
+    -webkit-appearance: none;
+    outline: 0;
+    width: 100%
+}
+
+.formGroup .formInput:focus {
+    border-color: #00bafa
+}
+
+.formGroup .formInput:active {
+    color: #175265;
+    border-color: #65c8f2
+}
+
+.formGroup .formInput:hover {
+    border-color: #bdbdbd
+}
+
+.formGroup .formInput+label[placeholder] {
+    display: block;
+    position: relative;
+    pointer-events: none;
+    line-height: 1.22em;
+    margin-top: calc(-3em - 2px);
+    margin-bottom: calc(2.3em - 1.3em);
+    margin-left: 8px
+}
+
+.formGroup .formInput+label[placeholder]:before {
+    font-weight: 300;
+    content: attr(placeholder);
+    display: inline-block;
+    margin: 6px 0 0 12px;
+    padding: 0;
+    white-space: nowrap;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out
+}
+
+.formGroup .formInput.inputYes+label[placeholder]:before,
+.formGroup .formInput:focus+label[placeholder]:before {
+    background: #fff;
+    font-size: 10px;
+    padding: 0 2px;
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+    -webkit-transform: translate(0, -1.7em);
+    transform: translate(0, -1.7em)
+}
+
+.fromError {
+    display: block;
+    font-size: 10px;
+    line-height: 10px;
+    width: 100%;
+    position: relative;
+    top: 7px
+}
+
+.fromError.ok {
+    color: #093
+}
+
+.fromError.error {
+    color: red
+}
+
+.faqs .container {
+    max-width: 998px
+}
+
+.faqs {
+    background-color: #fff;
+    padding: 200px 0 140px;
+}
+
+.faqs h1 {
+    font-family: PlutoCondBold;
+    font-size: 1.5rem;
+    letter-spacing: 0.1375rem;
+    line-height: 1.46;
+    margin-bottom: 0;
+}
+
+.faqs h2 {
+    font-family: PlutoCondBold;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.33;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: #231F20;
+    margin-bottom: 10px;
+    letter-spacing: 0.04375rem
+}
+
+.questions {}
+
+.question {
+    border-bottom: 1px solid #231F20;
+    /* max-width:66%; */
+}
+
+.question:first-child {
+    border-top: 1px solid #231F20
+}
+
+
+/* .question:last-child{border-bottom:0} */
+
+.question h3 {
+    font-family: PlutoCondBold;
+    padding: 15px 50px 38px 13px;
+    font-size: 1rem;
+    font-weight: normal;
+    color: #2e3033;
+    line-height: 1.25;
+    margin: 0;
+    position: relative;
+}
+
+.question h3:after {
+    position: absolute;
+    content: "\F106";
+    font-family: "fontello";
+    font-size: 1.25rem;
+    font-weight: normal;
+    line-height: 1.25;
+    top: 12px;
+    right: 25px;
+    pointer-events: none;
+}
+
+.question h3.collapsed:after {
+    content: "\F107";
+}
+
+.rzcard {
+    font-family: 'Roboto', sans-serif;
+    padding: 0 13px 30px 13px;
+    font-size: 0.875rem;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.43;
+    letter-spacing: 0.04375rem;
+    color: #231F20;
+}
+
+
+/***[ WALLPAPER PAGE ]***/
+
+.wallpaper {
+    padding-top: 70px;
+}
+
+.wallpaper .ptitle {
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 12px;
+}
+
+.postheader p.rzLH20 {
+    line-height: 20px;
+}
+
+.wallpaper p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+
+.wallpaper .mybtn {
+    width: 290px;
+    max-width: 290px;
+    margin-bottom: 20px
+}
+
+.bottompromo {
+    padding-top: 95px;
+    padding-bottom: 40px;
+}
+
+.btmpromo {
+    background: -webkit-linear-gradient(left, rgb(8, 88, 193) 0%, rgb(37, 126, 209) 73%, rgb(8, 88, 193) 98%);
+    background: -o-linear-gradient(left, rgb(8, 88, 193) 0%, rgb(37, 126, 209) 73%, rgb(8, 88, 193) 98%);
+    background: -ms-linear-gradient(left, rgb(8, 88, 193) 0%, rgb(37, 126, 209) 73%, rgb(8, 88, 193) 98%);
+    background: -moz-linear-gradient(left, rgb(8, 88, 193) 0%, rgb(37, 126, 209) 73%, rgb(8, 88, 193) 98%);
+    background: linear-gradient(to right, rgb(8, 88, 193) 0%, rgb(37, 126, 209) 73%, rgb(8, 88, 193) 98%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    position: relative
+}
+
+.btmpromo .bplink {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.btmpromo .bptext {
+    padding-left: 48px;
+    padding-right: 30px
+}
+
+.btmpromo .ptitle {
+    font-size: 36px;
+    line-height: 36px
+}
+
+.btmpromo p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+.btmpromo .mybtn {
+    width: 185px;
+    max-width: 185px
+}
+
+
+/***[ //WALLPAPER PAGE ]***/
+
+
+/**[ WIZ KHALIFA ]**/
+
+.wizkhalifa {
+    padding: 115px 0;
+    position: relative
+}
+
+.wizbox {
+    position: relative;
+    bottom: -44px;
+    z-index: 1
+}
+
+.wizkhalifa .mybtn {
+    width: 100%;
+    max-width: 290px;
+    box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.11)
+}
+
+.wizkhalifa .wizmob {
+    margin: 0 -15px
+}
+
+.wizmd {
+    box-shadow: 0 0 26px #111
+}
+
+
+/**[ //WIZ KHALIFA ]**/
+
+
+/**[ PLAYFULS ]**/
+
+.playfuls {
+    width: calc(100% - 80px);
+    float: right;
+    position: relative;
+    margin-top: 170px
+}
+
+.playtext {
+    font-family: PlutoCondBold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #fff;
+    letter-spacing: -0.42px;
+}
+
+
+/**[ //PLAYFULS ]**/
+
+
+/**[ OREO TIGET ]**/
+
+.oreotigerArea {
+    height: auto
+}
+
+.oreotiger {
+    width: calc(100% - 160px);
+    margin: 0 auto;
+    padding-top: 35px;
+}
+
+.oreotgrHight {
+    height: 450px;
+}
+
+.oreotgrHight>div {
+    height: 100%
+}
+
+.mycol2 {
+    width: 44.5%
+}
+
+.mycol3 {
+    width: 55.5%
+}
+
+.myco10 {
+    width: 33.16%;
+}
+
+.mycol2,
+.mycol3,
+.myco10 {
+    float: left
+}
+
+.oreopledgevideo {
+    padding: 0;
+    height: 100%;
+    position: relative;
+}
+
+.oreopledgevideo vidoe {
+    background: transparent;
+    width: 100%;
+    height: 100%;
+}
+
+.oreopledge {}
+
+.oreopledge>div {
+    padding-top: 48px
+}
+
+.oreopledge h2 {
+    padding: 0 20px;
+    text-align: center;
+}
+
+.oreopledge h2 img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.oreopledge ul {
+    list-style: none;
+    padding: 40px 10px 50px;
+    overflow: hidden;
+    margin: 0;
+}
+
+.oreopledge ul li {
+    float: left;
+    width: 25%;
+}
+
+.oreopledge ul a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.oreopledge ul span {
+    display: block;
+    padding: 10px;
+}
+
+.oreopledge ul i {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 0;
+    font-size: 11px;
+    font-family: trajanPro3;
+    font-style: normal;
+    text-transform: uppercase;
+    line-height: 18px;
+    text-align: center;
+    color: #ffffff;
+    display: block;
+    /* opacity:0; */
+    width: 130px;
+    transition: opacity 200ms;
+}
+
+.oreopledge ul img {
+    display: block;
+    max-width: 100%;
+    border-radius: 50%;
+    animation: glowing 5000ms infinite;
+    /* transition:transform 400ms; */
+    margin: 0 auto;
+}
+
+.oreopledge ul a:hover img {
+    /* transform: rotate(360deg); */
+    box-shadow: 0 0 20px #ccc;
+}
+
+.oreopledge p {
+    font-size: 11px !important;
+    font-family: trajanPro3;
+    font-style: normal;
+    text-transform: uppercase;
+    line-height: 18px !important;
+    text-align: center;
+    color: #ffffff;
+    max-width: 100% !important;
+    margin: 0 !important;
+}
+
+.postheader.oreotigerArea.banner-bg1_6 .row>div {
+    padding-left: 0;
+    height: auto;
+}
+
+.oreotextleftbanner h2 {
+    font-family: PlutoCondBlack;
+    font-size: 69px;
+    line-height: 71.99px;
+    margin: -20px 0 0 0;
+}
+
+.banner-bg1_5 .bg {
+    background-image: url(../images/banners/banner1_5-lg.png)
+}
+
+.banner-bg1_6 .bg {
+    background-image: url(../images/banners/banner1_6-lg.png)
+}
+
+@keyframes glowing {
+    0% {
+        box-shadow: 0 0 -10px #ccc
+    }
+    40% {
+        box-shadow: 0 0 20px #ccc
+    }
+    60% {
+        box-shadow: 0 0 20px #ccc
+    }
+    100% {
+        box-shadow: 0 0 -10 #ccc
+    }
+}
+
+
+/* .logoShadow {}
+
+.logoShadow:after {
+    content: '';
+    border-radius: 50%;
+    box-shadow: 0 0 20px #ccc;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 77px;
+    margin: 0 auto;
+    height: 87px;
+    position: absolute;
+    z-index: -1;
+} */
+
+
+/*============ OREO MYSTERY CSS =============*/
+
+.myco10.oreopledgetext {
+    float: right;
+    margin-right: 53px;
+    margin-top: 55px;
+}
+
+.myco10.oreopledgetext .btn.mybtn {
+    width: 280px;
+}
+
+.oreopledgetext h2 {
+    font-family: 'PlutoCondBlack';
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: normal;
+}
+
+.oreobannerfooter {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+}
+
+.oreobannerfooter p {
+    font-family: 'PlutoCondMedium';
+    color: #fff;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 0 !important;
+    line-height: 14px;
+    margin: 0 141px 10px;
+}
+
+.oreobannerfooter p a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+@media (min-width:768px) {
+    .oreopledge ul li.ihide a i {
+        opacity: 0;
+    }
+}
+
+@media (max-width:992px) {
+    .oreopledgevideo {
+        margin-top: 30px;
+    }
+    .oreopledgevideo iframe {
+        position: relative;
+        transform: unset;
+        top: auto;
+        left: auto;
+        width: 100%;
+    }
+    .mycol2,
+    .mycol3 {
+        width: 100%
+    }
+    .oreotigerArea.banner-bg1,
+    .oreotgrHight {
+        height: auto !important;
+        max-height: none !important;
+    }
+    .oreopledge>div {
+        padding-top: 40px
+    }
+    .oreopledge ul {
+        padding: 28px 10px 15px
+    }
+    /* .oreopledge ul i{opacity:1} */
+}
+
+@media ( max-width: 767.98px) {
+    .oreotiger {
+        width: auto;
+        margin: 0 -15px;
+    }
+    .oreopledge>div {
+        padding-top: 0
+    }
+    .oreopledge ul {
+        padding: 28px 10px 10px;
+        max-width: 295px;
+        margin: 0 auto
+    }
+    .oreopledge ul li {
+        padding-bottom: 8px;
+        width: 50%
+    }
+    .oreopledge ul a {
+        padding-bottom: 15px;
+        max-width: 150px;
+        margin: 0 auto;
+    }
+    .oreopledge p {
+        padding-bottom: 10px !important
+    }
+    .logoShadow:after {
+        content: unset
+    }
+}
+
+
+/**[ //OREO TIGET ]**/
+
+@media (max-width:575.98px) {
+    .px-xs-0 {
+        padding-left: 0;
+        padding-right: 0
+    }
+}
+
+@media ( min-width: 991px) and ( max-width: 1200px) {
+    .recipe-box {
+        padding-top: 200px
+    }
+}
+
+@media ( min-width: 768px) {
+    .mynavbar {
+        margin-top: 30px
+    }
+    .mycol {
+        width: auto
+    }
+    .navbox>.row {
+        position: relative
+    }
+    .mobilebtn,
+    .cartbtn {
+        display: none
+    }
+}
+
+@media ( max-width: 767.98px) {
+    .banner-bg1_5 {
+        margin-top: -52px;
+    }
+    .myco10.oreopledgetext .btn.mybtn {
+        width: 233px;
+    }
+    .banner-bg1_5 .oreotiger {
+        width: auto;
+        margin: 0;
+    }
+    .myco10.oreopledgetext {
+        margin-right: 0;
+    }
+    .oreopledgetext h2 {
+        font-size: 25px !important;
+        line-height: 31px !important;
+    }
+    .myco10 {
+        width: 45.5% !important;
+    }
+    /**** NAVBAR ****/
+    .mycol {
+        width: 100%
+    }
+    body.header-scrollable .preheader {
+        height: auto;
+        background: #fff;
+        border-radius: 0 0 20px 20px;
+        border: 2px solid #d3e8f6;
+        border-top: 0;
+    }
+    .preheader>.container {
+        margin: 0;
+        padding: 0;
+        max-width: none
+    }
+    .mynavbar {
+        height: auto;
+        max-width: none;
+        padding: 0;
+        min-height: 48px;
+    }
+    .header {
+        min-height: 52px
+    }
+    .mobilebtn {
+        height: 40px;
+        width: 45px;
+        margin-left: 10px;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: #fff;
+        position: absolute;
+        z-index: 3;
+        top: 3px;
+        left: 0;
+        cursor: pointer;
+    }
+    .mobilebtn span {
+        height: 4px;
+        width: 35px;
+        background: #231F20;
+        margin: 2px auto;
+        display: block;
+        z-index: 1;
+    }
+    .mobilebtn span:nth-child(2n+1) {
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+    .mobilebtn span:nth-child(2n) {
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+    .mobilebtn span:nth-child(2n+1) {
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+    .mobilebtn span:nth-child(2n) {
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+    .mobilebtn.open span {
+        position: absolute;
+        height: 2px;
+        width: 25px;
+        border-radius: 25px;
+        left: 9px;
+        top: 15px;
+        -webkit-transition: .25s ease-in-out;
+        -moz-transition: .25s ease-in-out;
+        -o-transition: .25s ease-in-out;
+        transition: .25s ease-in-out;
+    }
+    .mobilebtn.open span:first-child {
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+    .mobilebtn.open span:last-child {
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+    .mobilebtn.open span:nth-child(2),
+    .mobilebtn.open span:nth-child(3) {
+        display: none
+    }
+    .cartbtn {
+        position: absolute;
+        z-index: 3;
+        top: 5px;
+        right: 15px;
+        font-size: 20px;
+        width: 28px;
+        text-align: center;
+        color: #231f20;
+    }
+    .mybrand {
+        width: 51px;
+        height: 62px;
+        margin: 0 auto;
+        right: 0;
+        top: 10px
+    }
+    .mybrand img {
+        width: 51px;
+        height: 62px
+    }
+    .navbox {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 98px 15px 0;
+        position: relative;
+        display: none;
+        border-radius: 0 0 30px 30px;
+        overflow: hidden
+    }
+    .navbox .fs0 {
+        padding: 0
+    }
+    .mynavbar .mycol {
+        overflow: auto;
+        max-height: 400px
+    }
+    .mymenu {
+        display: block;
+        width: 100%;
+        overflow: hidden;
+    }
+    .mymenu li {
+        margin: 0;
+        width: 100%;
+        border-top: 2px solid #d3e8f6
+    }
+    .mymenu li .navlink {
+        border-radius: 0;
+        height: 50px;
+        border: 0
+    }
+    .mymenu li .navlink a,
+    .mymenu li .navlink span {
+        line-height: 20px;
+        padding: 16px 15px
+    }
+    .mymenu li.open .navlink {
+        border-radius: 0;
+        padding-bottom: 0;
+        border-bottom: 0;
+        height: auto;
+    }
+    .mymenu li:not(.open) .navlink:hover {
+        background-color: transparent;
+    }
+    .mymenu li:not(.open) .navlink:hover a,
+    .mymenu li:not(.open) .navlink:hover span {
+        color: #0858c1;
+    }
+    .mymenu li .navlink i.fa {
+        float: right
+    }
+    .mymenu li .mydropdown {
+        position: relative;
+        border-radius: 0;
+        min-width: 100%;
+        border: 0;
+        margin: 0;
+        padding: 0 15px;
+    }
+    .innerDropdown {
+        border: 0;
+        padding: 0
+    }
+    .navlist>li {
+        padding: 0
+    }
+    .navlist>li:first-child {
+        border-color: #0858c1
+    }
+    .navlist>li a {
+        font-family: 'PlutoCondBold';
+        display: block;
+        padding: 15px 0;
+        color: #231f20
+    }
+    .navlist>li a:hover {
+        color: #0858c1
+    }
+    .mymenu>li.open::after {
+        content: none
+    }
+    .magamenu ul.navlist {
+        height: 0;
+        overflow: hidden;
+        padding: 0
+    }
+    .magamenu ul.navlist.rzopen2 {
+        height: auto;
+        padding: 10px 0
+    }
+    .magamenu .navlist>li {
+        position: relative;
+        right: -100%;
+        transition: all 700ms
+    }
+    .magamenu .navlist.rzopen2>li {
+        right: 0
+    }
+    .magamenu .innerDropdown {
+        border-top: 2px solid #0858c1
+    }
+    .magamenu h3 {
+        margin: 0;
+        padding: 0
+    }
+    .magamenu h3>span {
+        padding: 12px 0;
+        cursor: pointer
+    }
+    .magamenu h3:hover {
+        color: #0858c1
+    }
+    .magamenu .navtitle>i {
+        display: none
+    }
+    .magamenu .navtitle>span {
+        display: block
+    }
+    .magamenu .navlist>li {
+        border: 0
+    }
+    .magamenu .navlist {
+        padding-top: 10px;
+        padding-bottom: 10px
+    }
+    .magamenu .navlist>li a {
+        font-family: "PlutoCondBold";
+        font-size: 0.875rem;
+        font-weight: 300;
+        color: #4a4a4a;
+        padding: 5px 0;
+    }
+    .magamenu .navlist>li a:hover {
+        color: #0858c1
+    }
+    /**** END NAVBAR ****/
+    .innerMidfooter {
+        padding-top: 5px;
+        padding-bottom: 50px
+    }
+    .openoreo img {
+        right: -23px
+    }
+    /**[ WZ HOME ]***/
+    .banner-bg1,
+    .banner-bg1_4 {
+        top: -50px
+    }
+    .thestufinside .rzwzgap {
+        height: 185px
+    }
+    .thestufinside.mtm-sm-38 {
+        margin-top: -38px !important
+    }
+    /**[ //WZ HOME ]***/
+}
+
+@media (max-width:991.98px) {
+    .cookieArea h2 {
+        margin: 18px 0 10px;
+        font-size: 28px;
+        line-height: 42px
+    }
+    .cookiebtn {
+        margin-top: 5px
+    }
+    .cookiebtn img {
+        max-width: 274px
+    }
+    .cookiebtn button {
+        top: 100px;
+        height: 32px;
+        font-size: 15px;
+        line-height: 14px
+    }
+    .mybtn,
+    .mybtnhm {
+        height: 40px;
+        line-height: 24px;
+        padding-left: 0!important;
+        padding-right: 0!important;
+        max-width: 320px;
+        width: 100%;
+    }
+    .brandftr,
+    ul.socialnet {
+        float: none;
+        margin: 0 auto;
+    }
+    .feature-bg {
+        padding: 62px 0 38px;
+        overflow: hidden
+    }
+    .banner-bg1,
+    .banner-bg1_4 {
+        height: 500px
+    }
+    .thestufinside {
+        margin-top: 100px;
+    }
+    .thestufinside img {
+        max-height: 135px;
+        left: 0
+    }
+    .feature-boxs {
+        max-width: 375px;
+        margin: 0 auto;
+        padding: 10px 0
+    }
+    .feature-box1 {
+        max-width: 250px;
+        margin: 0 auto
+    }
+    .fbx-cookie {
+        top: -45px;
+        right: -159px;
+        max-width: 230px
+    }
+    .feature-box2 {
+        max-width: 225px;
+        left: 34px;
+        bottom: 20px
+    }
+    .fbx-head {
+        padding: 15px 15px 10px
+    }
+    .fbx-title {
+        line-height: 14px;
+        font-size: 10px;
+        padding: 5px 27px;
+        left: -10px
+    }
+    .fbx-title:after {
+        border-top: 10px solid #3b9bdd;
+        border-left: 10px solid transparent;
+        bottom: -9px
+    }
+    .fbx-body h3 {
+        font-size: 12px;
+        line-height: 12px;
+        margin: 0
+    }
+    .fbx-body small {
+        font-size: 9px;
+        line-height: 12px;
+        margin: 0
+    }
+    .innerPrefooter {
+        height: auto
+    }
+    .rzcontainer {
+        bottom: 10px;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 12px;
+    }
+    .postheader small {
+        margin: 0 auto;
+        font-size: 8px;
+        line-height: 9px
+    }
+    .postheader p {
+        font-size: 14px;
+        margin: 8px auto 8px;
+        line-height: 20px;
+        max-width: 320px;
+    }
+    .fz-text {
+        padding-top: 118px
+    }
+    .coupon-info br,
+    .package br,
+    .recipe-box br {
+        display: none
+    }
+    .recipe-box {
+        padding-top: 32px;
+    }
+    .inrOpenoreo .ptitle {
+        margin-top: 55px
+    }
+    .recipe-box p {
+        margin-bottom: 25px
+    }
+    .inrFormGroup {
+        text-align: left
+    }
+    .coupon-info .ptitle {
+        font-size: 28px;
+        line-height: 32px
+    }
+    .coupon-info .mybtn {
+        margin-top: 36px;
+        margin-left: auto;
+        margin-right: auto
+    }
+    .coupon-box {
+        padding: 0 15px
+    }
+    .cbsm-degine,
+    .package {
+        padding-top: 20px
+    }
+    .package.mp-24 {
+        margin-top: 0
+    }
+    .coupon-box .ctitle {
+        font-size: 20px;
+        line-height: 24px
+    }
+    .coupon-box .cbx-holder {
+        height: auto;
+        max-height: none
+    }
+    .coupon-box .mybtn {
+        max-width: 245px
+    }
+    .cbxh-box {
+        z-index: 3;
+        margin-bottom: -60px
+    }
+    .cbox-text p {
+        max-width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        letter-spacing: 0;
+    }
+    .coupon-box .cbx-img {
+        position: static
+    }
+    .cbsm-degine {
+        background: #86c6f3;
+        background: -moz-radial-gradient(center, ellipse cover, rgba(134, 198, 243, 1) 0, rgba(27, 139, 217, 1) 100%);
+        background: -webkit-radial-gradient(center, ellipse cover, rgba(134, 198, 243, 1) 0, rgba(27, 139, 217, 1) 100%);
+        background: radial-gradient(ellipse at center, rgba(134, 198, 243, 1) 0, rgba(27, 139, 217, 1) 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#86c6f3', endColorstr='#1b8bd9', GradientType=1);
+        position: relative;
+        border-bottom: 1px solid #d3e8f6;
+        border-top: 1px solid #d3e8f6;
+        max-height: 153px;
+        padding-bottom: 24px;
+        height: 100px
+    }
+    .cbsm-degine:after,
+    .cbsm-degine:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        z-index: 0;
+        width: 0;
+        height: 0;
+        border-top: 50px solid transparent;
+        border-bottom: 50px solid transparent
+    }
+    .cbsm-degine:after {
+        border-right: 30px solid #f6f6f6;
+        right: 0
+    }
+    .cbsm-degine:before {
+        border-left: 30px solid #f6f6f6;
+        left: 0
+    }
+    .package p {
+        margin-bottom: 28px
+    }
+    .package .ptitle {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 8px;
+    }
+    .innerMidfooter h2 {
+        font-size: 17px;
+        line-height: 22px
+    }
+    .ftrsubscribe {
+        max-width: 320px;
+        margin-left: auto;
+        margin-right: auto
+    }
+    .ftrsubscribe .mybtn {
+        max-width: 175px
+    }
+    .ftrsubscribe .btn-sm-center {
+        padding-top: 15px;
+        margin-bottom: 10px
+    }
+    p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .openoreo p,
+    .package p,
+    .recipe-box p,
+    .coupon-info p,
+    .fz-text p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    /***[ WALLPAPER PAGE ]***/
+    .wallpaper {
+        padding-top: 25px
+    }
+    .wallpaper .ptitle {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 8px
+    }
+    .wallpaper p {
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 12px
+    }
+    .wallpaper .wpbtnbox {
+        padding-top: 18px
+    }
+    .bottompromo {
+        padding-top: 14px;
+        padding-bottom: 34px;
+    }
+    .btmpromo {
+        margin: 0 -5px;
+        border: 1px solid #020c24;
+        padding: 6px 0;
+    }
+    .btmpromo .bptext {
+        -ms-flex: 0 0 calc(100% - 100px);
+        flex: 0 0 calc(100% - 100px);
+        max-width: calc(100% - 100px);
+        padding: 0 0 0 6px;
+    }
+    .btmpromo .bpimg {
+        padding: 0;
+        -ms-flex: 0 0 100px;
+        flex: 0 0 100px;
+        max-width: 100px;
+        height: 44px;
+    }
+    .btmpromo .ptitle {
+        font-size: 14.95px;
+        line-height: 26.16px;
+        margin: 0
+    }
+    .btmpromo .ptitle>span {
+        display: none
+    }
+    .btmpromo p {
+        font-size: 6.54px;
+        line-height: 8.41px;
+        margin: 0
+    }
+    /***[ //WALLPAPER PAGE ]***/
+    .thin-body>div {
+        width: 290px
+    }
+    .openoreo {
+        overflow: hidden
+    }
+    .justify-content-center>.col-10 {
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
+    .oreobig {
+        padding: 0 5px
+    }
+    .oreofudge {
+        padding: 0 6px
+    }
+    .oreochoc {
+        padding: 0
+    }
+    .oreofudge {
+        text-align: center!important
+    }
+    .oreofun>img,
+    .oreobig>img,
+    .oreochoc>img {
+        max-width: 80%
+    }
+    .oreomit>img {
+        max-width: 90%
+    }
+    .oreocreme>img {
+        max-width: 90%
+    }
+    .oreoorginal>img {
+        max-width: 82%
+    }
+    .oreogolden>img {
+        max-width: 86%
+    }
+    .oreospecial>img {
+        max-width: 100%
+    }
+    .oreobits>img {
+        max-width: 65%;
+        margin-bottom: -18px
+    }
+    .oreofudge>img {
+        max-width: 90.5%;
+        margin-bottom: -28px
+    }
+    /***[ WIZ HOME ]***/
+    .wizkhalifa {
+        margin-bottom: 20px;
+        padding: 30px 0 22px
+    }
+    .wizkhalifa .mybtn {
+        max-width: 320px
+    }
+    /***[ //WIZ HOME ]***/
+}
+
+@media (max-width:480px) {
+    .cbxh-box {
+        margin-bottom: -35px
+    }
+    .cbsm-degine {
+        padding: 10px;
+        height: 70px
+    }
+    .cbsm-degine:after,
+    .cbsm-degine:before {
+        border-width: 35px 25px
+    }
+    .postheader p.fr.rzLH20 {
+        line-height: 16px;
+        font-size: 13px;
+    }
+}
+
+@media (min-width:992px) {
+    .coupon-box {
+        margin-left: 0;
+        margin-right: 0
+    }
+    .cblg-degine {
+        background: #86c6f3;
+        background: -moz-radial-gradient(center, ellipse cover, rgba(134, 198, 243, 1) 0, rgba(27, 139, 217, 1) 100%);
+        background: -webkit-radial-gradient(center, ellipse cover, rgba(134, 198, 243, 1) 0, rgba(27, 139, 217, 1) 100%);
+        background: radial-gradient(ellipse at center, rgba(134, 198, 243, 1) 0, rgba(27, 139, 217, 1) 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#86c6f3', endColorstr='#1b8bd9', GradientType=1);
+        position: relative;
+        border-bottom: 1px solid #d3e8f6;
+        border-top: 1px solid #d3e8f6;
+        max-height: 153px;
+        padding-top: 24px;
+        padding-bottom: 24px
+    }
+    .cblg-degine:after,
+    .cblg-degine:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        z-index: 0;
+        width: 0;
+        height: 0;
+        border-top: 76.5px solid transparent;
+        border-bottom: 76.5px solid transparent
+    }
+    .cblg-degine:after {
+        border-right: 55px solid #f6f6f6;
+        right: 0
+    }
+    .cblg-degine:before {
+        border-left: 55px solid #f6f6f6;
+        left: 0
+    }
+    .br-lg {
+        display: block
+    }
+    .py-lg-78 {
+        padding-top: 78px;
+        padding-bottom: 78px
+    }
+    .pb-lg-90,
+    .py-lg-90 {
+        padding-bottom: 90px
+    }
+    .py-lg-90 {
+        padding-top: 90px
+    }
+    .pr-lg-10 {
+        padding-right: 10px
+    }
+    .pl-lg-10 {
+        padding-left: 10px
+    }
+    .pt-lg-175 {
+        padding-top: 175px
+    }
+    .pb-lg-10 {
+        padding-bottom: 10px
+    }
+    .pb-lg-95 {
+        padding-bottom: 95px
+    }
+    .pb-lg-98 {
+        padding-bottom: 98px
+    }
+    .pb-lg-86 {
+        padding-bottom: 86px
+    }
+    .pb-lg-105 {
+        padding-bottom: 105px
+    }
+    .pb-lg-170 {
+        padding-bottom: 170px
+    }
+    .pb-lg-140 {
+        padding-bottom: 140px
+    }
+    .pb-lg-195 {
+        padding-bottom: 195px
+    }
+    .pb-lg-145 {
+        padding-bottom: 145px
+    }
+    .mtm-lg-70 {
+        margin-top: -70px
+    }
+    .mtm-lg-230 {
+        margin-top: -230px
+    }
+    .mtm-lg-157 {
+        margin-top: -157px
+    }
+    .openoreo {
+        padding-top: 152px;
+        padding-bottom: 154px;
+    }
+    .openoreo .col-lg-4 {
+        height: 230px
+    }
+    .openoreo .col-lg-4 .inrOpenoreo {
+        position: absolute;
+        width: 330px;
+        left: 15px;
+        top: 0
+    }
+    .prlg25 {
+        padding-right: 25px
+    }
+    .oreofun>img {
+        max-width: 79%
+    }
+    .oreobig>img {
+        max-width: 96.5%
+    }
+    .oreochoc>img {
+        max-width: 95%
+    }
+    .oreomit>img {
+        max-width: 89.6%
+    }
+    .oreocreme>img {
+        max-width: 96%
+    }
+    .oreoorginal>img {
+        max-width: 85.5%
+    }
+    .oreogolden>img {
+        max-width: 95%
+    }
+    .oreospecial>img {
+        max-width: 100%
+    }
+    .oreobits>img {
+        max-width: 67%
+    }
+    .oreofudge>img {
+        max-width: 100%
+    }
+    .wizmd {
+        position: relative;
+        right: -88px
+    }
+    .happy-holiday-content.text-center.text-lg-left {
+        margin-top: -60px;
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        max-width: 1175px
+    }
+    .footer .container {
+        max-width: 1024px
+    }
+}
+
+@media (max-width:991.98px) {
+    .bbg {
+        background-image: -moz-radial-gradient(50% 50%, circle closest-side, #3b9bdd 0, #0858c1 100%);
+        background-image: -webkit-radial-gradient(50% 50%, circle closest-side, #3b9bdd 0, #0858c1 100%);
+        background-image: -ms-radial-gradient(50% 50%, circle closest-side, #3b9bdd 0, #0858c1 100%)
+    }
+    .banner-bg1 .bg {
+        background-image: url(../images/banners/banner1-sm.png)
+    }
+    .banner-bg1 .bg2 {
+        background-image: url(../images/banners/banner1-sm2.png)
+    }
+    .banner-bg2 .bg {
+        background-image: url(../images/banners/banner2-sm.png)
+    }
+    .banner-bg3 .bg {
+        background-image: url(../images/banners/banner3-sm.png)
+    }
+    .wiz-bg {
+        background-image: url(../images/banners/wiz-sm.jpg)
+    }
+    /* .banner-bg1 {
+        height: 510px;
+        max-height: 510px;
+        background-color: #dbe0e5;
+    } */
+    .banner-bg1_4 {
+        height: 500px;
+        max-height: 500px;
+        background-color: #dbe0e5;
+    }
+    .banner-bg2,
+    .banner-bg3 {
+        height: 450px;
+        max-height: 450px
+    }
+    .banner-bg2 {
+        background-color: #fff;
+        top: -50px;
+    }
+    .banner-bg3 {
+        background-color: #003087;
+        top: -50px;
+    }
+    .openoreo {
+        padding-top: 38px;
+        padding-bottom: 38px
+    }
+    .bg-confetti {
+        background-image: url(../images/confetti.sm.png);
+        background-repeat: repeat-x;
+    }
+    .openoreo .d-lg-none .inrOpenoreo {
+        margin: 0 -15px
+    }
+    .fourzero {
+        padding: 80px 0 98px
+    }
+    .mb-md-20 {
+        margin-bottom: 20px
+    }
+    .pb-md-25 {
+        padding-bottom: 25px
+    }
+    .pt-md-50 {
+        padding-top: 50px
+    }
+    .py-md-30 {
+        padding-top: 30px;
+        padding-bottom: 30px
+    }
+    .py-md-40 {
+        padding-top: 40px;
+        padding-bottom: 40px
+    }
+    .py-md-50 {
+        padding-top: 50px;
+        padding-bottom: 50px
+    }
+    .px-md-35 {
+        padding-left: 35px;
+        padding-right: 35px
+    }
+    a.btn.mybtn.btn-dark.d-block.d-lg-none.hides {
+        display: none !important;
+    }
+    /**[ WZ HOME ]***/
+    .rzwzgap {
+        height: 150px
+    }
+    .thestufinside.mtm-sm-38 {
+        margin-top: 0
+    }
+    .thestufinside p.text-white {
+        letter-spacing: 0
+    }
+    .thestufinside p.text-white>br {
+        display: none
+    }
+    .wizleft>p {
+        margin-bottom: 0
+    }
+    .wizleft .mybtn {
+        line-height: 23px
+    }
+    /**[ //WZ HOME ]***/
+    /**[ PLAYFULS ]***/
+    .banner-bg1_4 .bg {
+        background-image: url(../images/banners/banner1_4-sm.png)
+    }
+    .banner-bg1_5 .bg {
+        background-image: url(../images/banners/banner1_5-sm.png)
+    }
+    .banner-bg1_6 .bg {
+        background-image: url(../images/banners/banner1_6-sm.png)
+    }
+    .banner-bg1_4 {
+        height: 500px;
+        max-height: 500px;
+        background-color: #dbe0e5;
+    }
+    .banner-bg1_5 {
+        height: 550px;
+        max-height: 550px;
+        background-color: #dbe0e5;
+    }
+    .myco10.oreopledgetext {
+        margin-right: 0;
+    }
+    .oreotigerArea.banner-bg1_5 .oreotgrHight {
+        height: 400px !important;
+        max-height: none !important;
+    }
+    .oreotigerArea.banner-bg1_5 .oreotiger {
+        width: 100%;
+    }
+    .oreobannerfooter p {
+        font-family: 'PlutoCondMedium';
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        margin: 0 0 8px;
+        max-width: 100%;
+    }
+    .myco10.oreopledgetext p {
+        margin: 0;
+    }
+    .oreopledgetext h2 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .myco10 {
+        width: 42.5%;
+    }
+    .playfuls {
+        width: 100%;
+        margin-top: 110px
+    }
+    .playtext {
+        font-size: 28px;
+        line-height: 32px;
+        letter-spacing: 0.20px
+    }
+    /**[ //PLAYFULS ]***/
+    .postheader.oreotigerArea.banner-bg1_6 .oreotgrHight {
+        height: 385px !important;
+    }
+    .oreotextleftbanner h2 {
+        font-size: 33px;
+        line-height: 35px;
+        margin: 0 0 50px;
+        text-align: center;
+    }
+    .postheader.oreotigerArea.banner-bg1_6 .row>div {
+        padding-left: 15px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1399.98px) {
+    .banner-bg1 .bg {
+        background-image: url(../images/banners/banner1-md.png)
+    }
+    .banner-bg1 .bg2 {
+        background-image: url(../images/banners/banner1-md2.png)
+    }
+    .banner-bg2 .bg {
+        background-image: url(../images/banners/banner2-md.png)
+    }
+    .banner-bg3 .bg {
+        background-image: url(../images/banners/banner3-md.png)
+    }
+    .wiz-bg {
+        background-image: url(../images/banners/wiz-md.jpg)
+    }
+    /*  .banner-bg1 {
+        height: 600px;
+        max-height: 600px
+    }
+ */
+    .banner-bg2 {
+        height: 760px;
+        max-height: 760px
+    }
+    .banner-bg3 {
+        height: 690px;
+        max-height: 690px
+    }
+    /**[ PLAYFULS ]***/
+    .banner-bg1_4 .bg {
+        background-image: url(../images/banners/banner1_4-md.png)
+    }
+    .banner-bg1_5 .bg {
+        background-image: url(../images/banners/banner1_5-md.png)
+    }
+    .banner-bg1_6 .bg {
+        background-image: url(../images/banners/banner1_6-lg.png);
+    }
+    .banner-bg1_6 .bg {
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    .oreobannerfooter p {
+        margin: 0 20px 8px;
+    }
+    .banner-bg1_4 {
+        height: 600px;
+        max-height: 600px;
+        margin-bottom: 88px;
+    }
+    .postheader.oreotigerArea.banner-bg1_6 .oreotgrHight {
+        height: 385px !important;
+    }
+    .oreotextleftbanner h2 {
+        font-size: 33px;
+        line-height: 35px;
+        margin: 0 0 50px;
+    }
+    .postheader.oreotigerArea.banner-bg1_6 .row>div {
+        padding-left: 15px;
+    }
+    /**[ //PLAYFULS ]***/
+}
+
+@media (min-width:1400px) {
+    .banner-bg1 .bg {
+        background-image: url(../images/banners/banner1-lg.png)
+    }
+    .banner-bg1_4 .bg {
+        background-image: url(../images/banners/banner1_4-lg.png)
+    }
+    .banner-bg1_5 .bg {
+        background-image: url(../images/banners/banner1_5-lg.png)
+    }
+    .banner-bg1_6 .bg {
+        background-image: url(../images/banners/banner1_6-lg.png)
+    }
+    .banner-bg1 .bg2 {
+        background-image: url(../images/banners/banner1-lg2.png)
+    }
+    .banner-bg2 .bg {
+        background-image: url(../images/banners/banner2-lg.png)
+    }
+    .banner-bg3 .bg {
+        background-image: url(../images/banners/banner3-lg.png)
+    }
+    .wiz-bg {
+        background-image: url(../images/banners/wiz-lg.jpg)
+    }
+    /*  .banner-bg1 {
+        height: 600px;
+        max-height: 600px
+    } */
+    .banner-bg1_4 {
+        height: 600px;
+        max-height: 600px;
+        margin-bottom: 88px;
+    }
+    .banner-bg2 {
+        height: 828px;
+        max-height: 828px
+    }
+    .banner-bg3 {
+        height: 690px;
+        max-height: 690px
+    }
+    .postheader.oreotigerArea.banner-bg1_6 {
+        height: 600px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199.98px) {
+    .faqs .container {
+        max-width: 795px
+    }
+    .wizbox {
+        bottom: -34px
+    }
+    .myco10 {
+        width: 42.5%;
+    }
+    .oreotigerArea.banner-bg1_5 .oreotgrHight {
+        height: 450px !important;
+    }
+}
+
+@media (min-width:768px) and (max-width:991.98px) {
+    .faqs .container {
+        max-width: 555px
+    }
+    .oreobannerfooter .container {
+        max-width: 100%;
+    }
+}
+
+@media ( max-width: 575.98px) {
+    .banner-bg1_5 .bg {
+        background-image: url(../images/banners/banner1_5-xs-sm.png);
+    }
+    .banner-bg1_6 .bg {
+        background-image: url(../images/banners/banner1_6-xs-md.png);
+    }
+    .bg,
+    .bg_4,
+    .bg2 {
+        background-size: cover;
+    }
+    .myco10.oreopledgetext {
+        float: none;
+        margin-right: 0;
+        margin-top: 195px;
+        padding: 0 127px;
+    }
+    .myco10 {
+        width: 100% !important;
+    }
+    .oreobannerfooter p {
+        font-family: 'PlutoCondMedium';
+        font-weight: normal;
+        font-size: 9px;
+        line-height: 11px;
+    }
+    .oreopledgetext h2 {
+        font-size: 28px !important;
+        line-height: 32px !important;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .myco10.oreopledgetext p {
+        margin: 0 auto;
+    }
+    .myco10.oreopledgetext {
+        width: 280px !important;
+        padding: 0 !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+}
+
+@media (min-width:401px) and (max-width:480.98px) {
+    .myco10.oreopledgetext {
+        padding: 0 45px !important;
+    }
+    .oreopledgetext h2 {
+        line-height: 30px !important;
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width:446px) and (max-width:452.98px) {
+    .oreopledgetext h2 {
+        line-height: 29px !important;
+    }
+    .myco10.oreopledgetext {
+        margin-top: 205px !important;
+    }
+}
+
+@media (min-width:440px) and (max-width:445.98px) {
+    .oreopledgetext h2 {
+        line-height: 29px !important;
+    }
+    .myco10.oreopledgetext {
+        margin-top: 205px !important;
+    }
+}
+
+@media (min-width:320px) and (max-width:535.98px) {
+    .myco10.oreopledgetext {
+        margin-top: 195px;
+    }
+}
+
+@media (min-width:320px) and (max-width:503.98px) {
+    .myco10.oreopledgetext {
+        margin-top: 190px;
+    }
+}
+
+@media (min-width:376px) and (max-width:480.98px) {
+    .myco10.oreopledgetext {
+        margin-top: 195px !important;
+        width: 280px !important;
+        padding: 0 !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+}
+
+@media (min-width:320px) and (max-width:480.98px) {
+    .myco10.oreopledgetext {
+        float: none;
+        margin-right: 0;
+        margin-top: 175px;
+    }
+}
+
+@media (min-width:480px) and (max-width:991.98px) {
+    .inrOpenoreo-img {
+        text-align: center;
+    }
+    .inrOpenoreo-img img {
+        right: auto;
+    }
+}
+
+@media (min-width:320px) and (max-width:469.98px) {
+    .myco10.oreopledgetext {
+        margin-top: 190px;
+    }
+}
+
+@media (min-width:320px) and (max-width:483.98px) {
+    .myco10.oreopledgetext {
+        margin-top: 180px;
+    }
+}
+
+@media (min-width:320px) and (max-width:400.98px) {
+    .myco10.oreopledgetext {
+        margin-top: 155px;
+    }
+    .oreopledgetext h2 {
+        line-height: 28px !important;
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width:320px) and (max-width:375.98px) {
+    .myco10.oreopledgetext .btn.mybtn {
+        width: 290px;
+    }
+    .banner-bg1_5 {
+        height: 500px;
+        max-height: 500px;
+    }
+    .myco10.oreopledgetext {
+        width: 290px !important;
+    }
+    .oreopledgetext h2 {
+        width: 280px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width:320px) and (max-width:366.98px) {
+    .myco10.oreopledgetext {
+        margin-top: 145px;
+    }
+}
+
+@media (min-width:356px) and (max-width:366.98px) {
+    .myco10.oreopledgetext {
+        margin-top: 155px;
+    }
+    .oreopledgetext h2 {
+        line-height: 29px !important;
+    }
+}
+
+@media (min-width:356px) and (max-width:375.98px) {
+    .myco10.oreopledgetext {
+        margin-top: 145px;
+    }
+}
+
+@media (min-width:468px) and (max-width:575.98px) {
+    .myco10.oreopledgetext {
+        margin-top: 190px !important;
+    }
+}
+
+@media (min-width:435px) and (max-width:575.98px) {
+    .banner-bg1_6 .bg {
+        background-position: center center;
+        background-size: cover;
+    }
+}
+
+@media (min-width:401px) and (max-width:408.98px) {
+    .myco10.oreopledgetext {
+        margin-top: 190px !important;
+    }
+}
+
+@media (min-width:375px) and (max-width:575.98px) {
+    .myco10.oreopledgetext .btn.mybtn {
+        width: 320px !important;
+    }
+    .myco10.oreopledgetext {
+        width: 100% !important;
+    }
+    .oreopledgetext h2 {
+        width: 280px !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .oreotextleftbanner h2 {
+        font-size: 33px;
+        line-height: 35px;
+        margin: 0 0 75px;
+        text-align: center;
+    }
+}
+
+@media (min-width:320px) and (max-width:374.98px) {
+    .oreotextleftbanner h2 {
+        font-size: 30px;
+        margin: 0 0 75px;
+    }
+}

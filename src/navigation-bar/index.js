@@ -53,7 +53,7 @@ class NavigationBar extends Component {
                         </div>
                     </div>
 
-                    <a className="cartbtn" href="#"><IoMdCart size={25}></IoMdCart></a>
+                    <a className="cartbtn" href="#"><i className="icon-cart-icon"></i></a>
                 </nav>
             </div>
         );

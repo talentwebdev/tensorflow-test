@@ -92,9 +92,10 @@ class TensorflowTest extends Component {
                 />
                 <video className="test-video" style={this.mystyles} ref="video" muted playsInline autoPlay></video>
                 <div className="canvas-container" ></div>
-                <CustomButton style={{position: "absolute", bottom: 20, right: 20}} text="Back"></CustomButton>
+                <CustomButton style={{position: "absolute", width: '30%', bottom: 50, right: 20}} text="Back"></CustomButton>
                 <div style={{position:'relative', width:'100%', height:'100%'}}></div>                
                 <Logo></Logo>
+                <img src={require("./../assets/pg.png")} alt="PG" style={{position: "absolute", bottom: 20, right: 20}}></img>
             </div>
         );
     }
